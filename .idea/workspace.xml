@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="" />
+    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/automationpractice/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-cases" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/automationpractice-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +53,25 @@
       <recent name="$PROJECT_DIR$/Driver" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.AddCartTest.test1">
+    <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataMisfitsBootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apps.automationpractice" />
+      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataMisfitsBootCampProject" />
       <extension name="coverage">
@@ -95,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddCartTest.test1" />
         <item itemvalue="TestNG.SearchTest.test1" />
         <item itemvalue="TestNG.SearchTest" />
         <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/BootCampProject/src/test/resources/phptravels-runner.xml" />
