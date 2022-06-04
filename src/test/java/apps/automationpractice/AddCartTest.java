@@ -30,7 +30,6 @@ public class AddCartTest extends CommonAPI {
         Assert.assertEquals(expectedCartTitle, actualCartTitle);
         driver.close();
 
-
     }
 
 
