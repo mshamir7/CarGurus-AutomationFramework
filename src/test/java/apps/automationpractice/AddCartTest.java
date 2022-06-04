@@ -29,6 +29,8 @@ public class AddCartTest extends CommonAPI {
         String actualCartTitle = driver.getTitle();
         Assert.assertEquals(expectedCartTitle, actualCartTitle);
         driver.close();
+
+
     }
 
 
