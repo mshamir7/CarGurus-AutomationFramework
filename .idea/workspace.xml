@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/automationpractice/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-cases" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/automationpractice-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
