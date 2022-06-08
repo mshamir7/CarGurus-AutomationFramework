@@ -40,7 +40,7 @@ public class CommonAPI {
     public void extentSetup(ITestContext context) {
         ExtentManager.setOutputDirectory(context);
         extent = ExtentManager.getInstance();
-    }
+    } 
 
     @BeforeMethod
     public void startExtent(Method method) {
