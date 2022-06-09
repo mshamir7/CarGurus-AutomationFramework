@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/LogInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/WhatsMyCarWorthPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carsaver-runner.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +38,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="29vxKHKPhz8R2VTV4aVxdZV63t6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,18 +56,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/main/java/reporting",
+    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
+      <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
+      <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
       <recent name="$PROJECT_DIR$/driver/windows" />
-      <recent name="$PROJECT_DIR$/driver/mac" />
-      <recent name="$PROJECT_DIR$/Driver" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.AddCartTest.test1">
@@ -139,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="mshamir7" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
