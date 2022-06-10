@@ -7,9 +7,34 @@
     <parameter name="os" value="windows"></parameter>
     <test name="carsaver main functionalities">
         <classes>
+            <class name="apps.cargurus.Login"></class>
+            <class name="apps.cargurus.SearchUsedCars"></class>
+            <class name="apps.cargurus.SearchNewCars"></class>
             <class name="apps.cargurus.CarValues"></class>
+            <class name="apps.cargurus.CertifiedPreOwnedCar"></class>
+            <class name="apps.cargurus.DealerShipsNearMe"></class>
+
         </classes>
     </test>
+
+    <test name="Regression suite">
+        <classes>
+            <class name="apps.cargurus.AddCarReview"></class>
+            <class name="apps.cargurus.CarValues"></class>
+            <class name="apps.cargurus.GeneralQuestion"></class>
+            <class name="apps.cargurus.PopularSearchListings"></class>
+            <class name="apps.cargurus.PriceTrends"></class>
+            <class name="apps.cargurus.recommendedCarsBasedOnSearchHistory"></class>
+            <class name="apps.cargurus.TestDriveReviews"></class>
+        </classes>
+    </test>
+
+<!--    <test name="Regression suite">-->
+<!--        <classes>-->
+<!--            <class name="apps.cargurus.Testing"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>

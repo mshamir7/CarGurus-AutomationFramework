@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.cargurus.HomePage;
 import pages.cargurus.WhatsMyCarWorthPage;
 
-public class CarValues extends CommonAPI {
+public class Testing extends CommonAPI {
 
     @Test
     public void sellMenuCarValues(){
