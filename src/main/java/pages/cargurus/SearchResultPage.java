@@ -21,7 +21,7 @@ public class SearchResultPage extends CommonAPI {
     private WebElement searchResultHeaderTextByPrice;
 
     @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[2]/div[2]/div[1]/div/div")
-    WebElement searchResultHeaderTextNewCarTitle;
+    private WebElement searchResultHeaderTextNewCarTitle;
 
     public SearchResultPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
