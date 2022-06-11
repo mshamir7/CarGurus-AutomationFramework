@@ -2,15 +2,13 @@ package apps.cargurus;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.cargurus.HomePage;
 import pages.cargurus.SearchResultPage;
 import pages.cargurus.ShoppingForAUsedCarPage;
-import pages.cargurus.WhatsMyCarWorthPage;
 
-public class Testing extends CommonAPI {
+public class SearchResults extends CommonAPI {
 
     @Test
     public void searchUsedCarsFromShoppingForAUsedCarPage() {
@@ -27,6 +25,7 @@ public class Testing extends CommonAPI {
         waitFor(2);
         String actualSearchTitleText = getDriver().findElement(By.xpath("//body/main[@id='main']/div[@id='cargurus-listing-search']/div[1]/div[1]/div[1]/h1[1]")).getText();
         Assert.assertEquals("Used Acura ILX for Sale in Forest Hills, NY", actualSearchTitleText);
+
 
         //Update Zipcode From SEARCH RESULTS PAGE TC022
 
@@ -46,6 +45,5 @@ public class Testing extends CommonAPI {
         searchResultPage.clickUpdateZip();
         waitFor(2);
         Assert.assertTrue(searchResultPage.assertErrorMessageBanner());
-
     }
 }

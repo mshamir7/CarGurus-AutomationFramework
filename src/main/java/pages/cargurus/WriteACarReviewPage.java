@@ -10,16 +10,16 @@ import org.openqa.selenium.support.PageFactory;
 public class WriteACarReviewPage extends CommonAPI {
 
     @FindBy(css = "#selectMaker")
-    WebElement makeDropDownList;
+    private WebElement makeDropDownList;
 
     @FindBy(css = "#selectModel")
-    WebElement modelDropDownList;
+    private WebElement modelDropDownList;
 
     @FindBy(css = "#selectYear")
-    WebElement yearDropDownList;
+    private WebElement yearDropDownList;
 
     @FindBy(xpath = "//*[@id='root']/div/div/a")
-    WebElement startWritingBtn;
+    private WebElement startWritingBtn;
 
 
     public WriteACarReviewPage(WebDriver driver){

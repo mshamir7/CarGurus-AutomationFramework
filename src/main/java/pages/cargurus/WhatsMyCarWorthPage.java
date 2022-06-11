@@ -32,6 +32,9 @@ public class WhatsMyCarWorthPage extends CommonAPI {
     @FindBy(css = ".new-car")
     private WebElement priceReportAssertionLogo;
 
+    @FindBy(xpath = "//*[@class='new-car']")
+    private WebElement priceReportAssertionLogos;
+
 
     public WhatsMyCarWorthPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -64,7 +67,7 @@ public class WhatsMyCarWorthPage extends CommonAPI {
     }
 
     public boolean assertPriceReportAssertionLogo(){
-        boolean present = (!isPresent(priceReportAssertionLogo));
+        boolean present = !(isPresent(priceReportAssertionLogos));
         return present;
     }
 }

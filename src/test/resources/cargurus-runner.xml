@@ -2,39 +2,39 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="carsaver smoke">
-    <parameter name="url" value="https://www.cargurus.com"></parameter>
+    <parameter name="url" value="https://www.cargurus.com">
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="windows"></parameter>
-    <test name="carsaver main functionalities">
-        <classes>
-            <class name="apps.cargurus.Login"></class>
-            <class name="apps.cargurus.SearchUsedCars"></class>
-            <class name="apps.cargurus.SearchNewCars"></class>
-            <class name="apps.cargurus.CarValues"></class>
-            <class name="apps.cargurus.CertifiedPreOwnedCar"></class>
-            <class name="apps.cargurus.DealerShipsNearMe"></class>
-
-        </classes>
-    </test>
-
-    <test name="Regression suite">
-        <classes>
-            <class name="apps.cargurus.AddCarReview"></class>
-            <class name="apps.cargurus.CarValues"></class>
-            <class name="apps.cargurus.GeneralQuestion"></class>
-            <class name="apps.cargurus.PopularSearchListings"></class>
-            <class name="apps.cargurus.PriceTrends"></class>
-            <class name="apps.cargurus.recommendedCarsBasedOnSearchHistory"></class>
-            <class name="apps.cargurus.TestDriveReviews"></class>
-        </classes>
-    </test>
-
-<!--    <test name="Regression suite">-->
+    </parameter>
+<!--    <test name="carsaver main functionalities">-->
 <!--        <classes>-->
-<!--            <class name="apps.cargurus.Testing"></class>-->
+<!--            <class name="apps.cargurus.Login"></class>-->
+<!--            <class name="apps.cargurus.SearchUsedCars"></class>-->
+<!--            <class name="apps.cargurus.SearchNewCars"></class>-->
+<!--            <class name="apps.cargurus.CarValues"></class>-->
+<!--            <class name="apps.cargurus.CertifiedPreOwnedCar"></class>-->
+<!--            <class name="apps.cargurus.DealerShipsNearMe"></class>-->
 
 <!--        </classes>-->
 <!--    </test>-->
+
+<!--    <test name="Regression suite">-->
+<!--        <classes>-->
+<!--            <class name="apps.cargurus.AddCarReview"></class>-->
+<!--            <class name="apps.cargurus.GeneralQuestion"></class>-->
+<!--            <class name="apps.cargurus.PopularSearchListings"></class>-->
+<!--            <class name="apps.cargurus.PriceTrends"></class>-->
+<!--            <class name="apps.cargurus.recommendedCarsBasedOnSearchHistory"></class>-->
+<!--            <class name="apps.cargurus.TestDriveReviews"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Regression suite">
+        <classes>
+            <class name="apps.cargurus.Testing"></class>
+
+        </classes>
+    </test>
 
 
 </suite>
