@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/WhatsMyCarWorthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/AddToCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/CreateAccntPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/LogoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/SearchIngPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/WarehouseLocationSelectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/EditAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/InvalidEmailLogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/InvalidPasswordLogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/InvalidShopCardPurchaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/SearchingItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/SelectItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/ShopCardBalanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/logoSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/Test _cases_costco.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/carsaver-runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29vxKHKPhz8R2VTV4aVxdZV63t6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/test/resources",
+    "last_opened_file_path": "C:/Users/14038/IdeaProjects/DataMisfitsProject1/test_cases",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -65,26 +73,49 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1\test_cases" />
+      <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
-      <recent name="$PROJECT_DIR$/driver/windows" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apps.costco" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddCartTest.test1">
+  <component name="RunManager" selected="TestNG.logoSearchTest.logoCheck">
     <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="apps.automationpractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="apps.automationpractice" />
       <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataMisfitsProject1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/costco-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,22 +157,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/kevinschool/IdeaProjects/BootCampProject/src/test/resources/phptravels-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/phptravels-runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="logoSearchTest.logoCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataMisfitsProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.costco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apps.costco" />
+      <option name="MAIN_CLASS_NAME" value="apps.costco.logoSearchTest" />
+      <option name="METHOD_NAME" value="logoCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" />
+      <item itemvalue="TestNG.logoSearchTest.logoCheck" />
+      <item itemvalue="TestNG.AddCartTest.test1" />
+      <item itemvalue="TestNG.SearchTest" />
+      <item itemvalue="TestNG.SearchTest.test1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.logoSearchTest.logoCheck" />
+        <item itemvalue="TestNG.C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" />
         <item itemvalue="TestNG.AddCartTest.test1" />
         <item itemvalue="TestNG.SearchTest.test1" />
         <item itemvalue="TestNG.SearchTest" />
-        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/BootCampProject/src/test/resources/phptravels-runner.xml" />
       </list>
     </recent_temporary>
   </component>
