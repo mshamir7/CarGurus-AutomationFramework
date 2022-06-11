@@ -19,7 +19,7 @@ public class HomePage extends CommonAPI {
     private WebElement accountUserName;
 
     @FindBy(xpath = "//body/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/span[1]/a[1]/*[1]")
-    WebElement addCarReviewBtn;
+    private WebElement addCarReviewBtn;
 
 
     //USED CAR OBJECTS: -------------------------------------------------------------------------------------------------------------------------------------
@@ -141,7 +141,7 @@ public class HomePage extends CommonAPI {
     //BUY MENU OBJECTS: ----------------------------------------------------------------------------------------------------------------------------------
 
     @FindBy(xpath = "//*[@id='wai_snm_cnl_buy']/span")
-    WebElement clickHeaderBuyBtn;
+    private WebElement clickHeaderBuyBtn;
 
     @FindBy(xpath = "//*[@id='wai_snm_cnl_buy']/span")
     private WebElement hoverOverBuyMenu;
@@ -156,7 +156,7 @@ public class HomePage extends CommonAPI {
     private WebElement profileMenuDropDown;
 
     @FindBy(xpath = "//*[@id='account-menu-content']/ul/li[4]/a")
-    WebElement recommendedCarsProfileDropDownOption;
+    private WebElement recommendedCarsProfileDropDownOption;
 
 
 

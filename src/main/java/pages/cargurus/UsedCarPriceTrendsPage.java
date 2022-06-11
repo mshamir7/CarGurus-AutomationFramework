@@ -13,10 +13,10 @@ public class UsedCarPriceTrendsPage extends CommonAPI {
     private WebElement startDateTextBox;
 
     @FindBy(css = "#endDate")
-    WebElement endDateTextBox;
+    private WebElement endDateTextBox;
 
     @FindBy(xpath = "//*[@id='trendsDates']/fieldset/div/input")
-    WebElement updateChartBtn;
+    private WebElement updateChartBtn;
 
     public UsedCarPriceTrendsPage(WebDriver driver){
         PageFactory.initElements(driver, this);

@@ -23,6 +23,15 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[2]/div[2]/div[1]/div/div")
     private WebElement searchResultHeaderTextNewCarTitle;
 
+    @FindBy(css = "input[name='zip']")
+    private WebElement zipCode;
+
+    @FindBy(xpath = "//button[contains(text(),'Update Zip')]")
+    private WebElement updateBtn;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[@id='cargurus-listing-search']/div[1]/div[1]/div[2]/div[2]/section[1]")
+    private WebElement errorMessageBanner;
+
     public SearchResultPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -45,5 +54,20 @@ public class SearchResultPage extends CommonAPI {
 
     public String getSearchPageTitle(){
         return getPageTitle();
+    }
+
+    public void clearZipCodeTextBox(){
+        clear(zipCode);
+    }
+    public void typeAndUpdateZipCode(String text) {
+        type(zipCode, text);
+    }
+
+    public void clickUpdateZip(){
+        click(updateBtn);
+    }
+
+    public boolean assertErrorMessageBanner(){
+       return isPresent(errorMessageBanner);
     }
 }
