@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/AddToCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/CreateAccntPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/LogoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/SearchIngPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/WarehouseLocationSelectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/EditAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/InvalidEmailLogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/InvalidPasswordLogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/InvalidShopCardPurchaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/SearchingItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/SelectItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/ShopCardBalanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/costco/logoSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/Test _cases_costco.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
