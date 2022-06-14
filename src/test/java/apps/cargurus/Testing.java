@@ -12,7 +12,7 @@ import pages.cargurus.WhatsMyCarWorthPage;
 
 public class Testing extends CommonAPI {
 
-    @Test
+    /*@Test
     public void searchUsedCarsFromShoppingForAUsedCarPage() {
         HomePage homePage = new HomePage(getDriver());
         ShoppingForAUsedCarPage shoppingForAUsedCarPage = new ShoppingForAUsedCarPage(getDriver());
@@ -47,5 +47,21 @@ public class Testing extends CommonAPI {
         waitFor(2);
         Assert.assertTrue(searchResultPage.assertErrorMessageBanner());
 
+    }*/
+    @Test(dependsOnMethods = {""})
+    public void byPrice () {
+        SearchResultPage searchResultPage = new SearchResultPage(getDriver());
+        searchResultPage.clickByPriceTab();
+        searchResultPage.clearMinPricetextBox();
+        waitFor(2);
+        searchResultPage.typeMinPrice("15000");
+        searchResultPage.clearMaxPriceTextBox();
+        waitFor(2);
+        searchResultPage.typeMaxPrice("25000");
+        searchResultPage.clearZipCodeTextBox();
+        searchResultPage.typeZipCode("11565");
+        searchResultPage.clickSearchBtn();
+        String acutal = getDriver().findElement(By.xpath("//div[contains(text(),'Price Search')]")).getText();
+        Assert.assertEquals("Price Search", acutal);
     }
 }

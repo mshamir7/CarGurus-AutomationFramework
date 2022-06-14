@@ -11,6 +11,7 @@
 <!--            <class name="apps.cargurus.Login"></class>-->
 <!--            <class name="apps.cargurus.SearchUsedCars"></class>-->
 <!--            <class name="apps.cargurus.SearchNewCars"></class>-->
+<!--            <class name="apps.cargurus.FilterSearchResultsUsedCars"></class>-->
 <!--            <class name="apps.cargurus.CarValues"></class>-->
 <!--            <class name="apps.cargurus.CertifiedPreOwnedCar"></class>-->
 <!--            <class name="apps.cargurus.DealerShipsNearMe"></class>-->
@@ -31,7 +32,7 @@
 
     <test name="Regression suite">
         <classes>
-            <class name="apps.cargurus.Testing"></class>
+            <class name="apps.cargurus.FilterSearchResultsUsedCars"></class>
 
         </classes>
     </test>
