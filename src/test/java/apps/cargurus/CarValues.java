@@ -23,7 +23,6 @@ public class CarValues extends CommonAPI {
         whatsMyCarWorthPage.typeCarValuesZipCode("11375");
         whatsMyCarWorthPage.typeCarValuesPrice("20000");
         waitFor(3);
-        boolean actual = whatsMyCarWorthPage.assertPriceReportAssertionLogo();
-        Assert.assertEquals("True", actual);
+        Assert.assertTrue(whatsMyCarWorthPage.assertPriceReportAssertionLogo());
     }
 }

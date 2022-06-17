@@ -9,7 +9,7 @@ import pages.cargurus.SearchResultPage;
 
 public class SearchNewCars extends CommonAPI {
 
-   // @Test
+    // @Test
     public void byMakeModelNew(){
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());

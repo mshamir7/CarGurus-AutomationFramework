@@ -1,16 +1,19 @@
 package apps.cargurus;
 
 import base.CommonAPI;
+import com.google.common.base.Verify;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.cargurus.HomePage;
 import pages.cargurus.SearchResultPage;
+import pages.cargurus.ShoppingForAUsedCarPage;
 
 import java.util.concurrent.TimeUnit;
 
 public class SearchUsedCars extends CommonAPI {
 
-    @Test
+    //@Test
     public void byMakeAndModelUsed() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -52,3 +55,21 @@ public class SearchUsedCars extends CommonAPI {
         Assert.assertEquals("Price Search", actualByPrice);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
