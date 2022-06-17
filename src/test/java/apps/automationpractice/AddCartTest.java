@@ -12,7 +12,7 @@ public class AddCartTest extends CommonAPI {
     @Test
 
     public void test1() {
-        System.setProperty("webdriver.chrome.driver", "/Users/kevinschool/IdeaProjects/BootCampProject/driver/mac/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/kevinschool/IdeaProjects/DataMisfitsProject1/driver/mac/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://automationpractice.com");

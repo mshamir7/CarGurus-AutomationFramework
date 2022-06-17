@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/WhatsMyCarWorthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/automationpractice/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/automationpractice/LogInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/automationpractice/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/automationpractice/HomePageClickTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/carsaver-runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/automationpractice-runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/carsaver-runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/costco-runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DataMisfitsBootCampProject/walmart-runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/automationpractice/AddCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/automationpractice/AddCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/automationpractice/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/automationpractice/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,18 +55,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/test/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/QA/DataMisfitsProject1/src/test/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
@@ -72,7 +76,25 @@
       <recent name="$PROJECT_DIR$/driver/windows" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddCartTest.test1">
+  <component name="RunManager" selected="TestNG.SearchTest (1)">
+    <configuration name="AddCartTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apps.automationpractice" />
+      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataMisfitsBootCampProject" />
       <extension name="coverage">
@@ -91,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
+    <configuration name="SearchTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="apps.automationpractice.*" />
@@ -126,9 +148,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/kevinschool/IdeaProjects/BootCampProject/src/test/resources/phptravels-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/phptravels-runner.xml" />
+    <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -138,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTest (1)" />
+        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" />
+        <item itemvalue="TestNG.AddCartTest.test1 (1)" />
         <item itemvalue="TestNG.AddCartTest.test1" />
         <item itemvalue="TestNG.SearchTest.test1" />
-        <item itemvalue="TestNG.SearchTest" />
-        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/BootCampProject/src/test/resources/phptravels-runner.xml" />
       </list>
     </recent_temporary>
   </component>
