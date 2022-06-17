@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/byPrice 061320222116PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/byPrice 061320222119PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/byPrice 061320222120PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/byPrice 061320222122PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061320222115PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061320222152PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061320222155PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061320222159PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061320222207PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 061120220047AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 061120220055AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221827PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221829PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221830PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221831PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221903PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221917PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221918PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221919PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221920PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221940PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchUsedCarsFromShoppingForAUsedCarPage 061120221942PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061020222039PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061020222048PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061020222054PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061020222113PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061020222116PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061120220047AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 061120220048AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,41 +40,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/QA/DataMisfitsProject1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1\test_cases" />
+      <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
-      <recent name="$PROJECT_DIR$/driver/windows" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apps.costco" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml">
+
     <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="apps.automationpractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="apps.automationpractice" />
       <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataMisfitsProject1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/costco-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,41 +130,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing.searchUsedCarsFromShoppingForAUsedCarPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="searchUsedCarsFromShoppingForAUsedCarPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" />
+      <item itemvalue="TestNG.logoSearchTest.logoCheck" />
+      <item itemvalue="TestNG.AddCartTest.test1" />
+      <item itemvalue="TestNG.SearchTest" />
+      <item itemvalue="TestNG.SearchTest.test1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
-        <item itemvalue="TestNG.FilterSearchResultsUsedCars.byPrice" />
-        <item itemvalue="TestNG.Testing.byPrice" />
-        <item itemvalue="TestNG.Testing.searchUsedCarsFromShoppingForAUsedCarPage" />
-        <item itemvalue="TestNG.AddCartTest.test1" />
+
       </list>
     </recent_temporary>
   </component>
