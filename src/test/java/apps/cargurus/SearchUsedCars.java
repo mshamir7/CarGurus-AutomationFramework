@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class SearchUsedCars extends CommonAPI {
 
-    //@Test
+    @Test
     public void byMakeAndModelUsed() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -29,7 +29,7 @@ public class SearchUsedCars extends CommonAPI {
         Assert.assertEquals("Forest Hills, NY", actualZipCodeLocation);
     }
 
-    //@Test
+    @Test
     public void byBodyStyleUsed() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -42,7 +42,7 @@ public class SearchUsedCars extends CommonAPI {
         Assert.assertEquals("Sedans", acutalBodyStyle);
     }
 
-    //@Test
+    @Test
     public void byPriceUsed() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
