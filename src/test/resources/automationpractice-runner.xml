@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="automationpractice smoke">
-    <parameter name="url" value="https://wwww.automationpractice.com"></parameter>
+    <parameter name="url" value="http://automationpractice.com/index.php"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="mac"></parameter>
     <test name="test1">
