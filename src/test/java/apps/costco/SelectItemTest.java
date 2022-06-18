@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SelectItemTest extends CommonAPI {
+    /*
     @Test
     public void searchAndSelect(){
         type("#search-field", "kid book");
@@ -14,6 +15,6 @@ public class SelectItemTest extends CommonAPI {
         click("img.img-responsive");
 
     }
-
+*/
 
 }
