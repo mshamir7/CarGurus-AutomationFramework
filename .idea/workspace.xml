@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/SearchResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/costco/loginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/AddToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/CreateAccntTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/DropdownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/floatingMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/loginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/pagetestcasescosto/logoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/AddToCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/AddToCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/CreateAccntPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/CreateAccntPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/LogoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/costco/LogoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/AddToCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/SearchingItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/SearchingItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/SelectItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/SelectItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/ShopCardBalanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/ShopCardBalanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/costco/logoSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/costco/logoSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -54,6 +38,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="29vxKHKPhz8R2VTV4aVxdZV63t6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,17 +49,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/14038/IdeaProjects/Apr2022-web-automation-15-16-framework&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+
   }
 }</component>
   <component name="RecentsManager">
@@ -90,9 +67,7 @@
       <recent name="apps.costco" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddToCartTest.addToCart">
-    <configuration name="AddToCartTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsProject1" />
+
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="apps.pagetestcasescosto.*" />
@@ -129,45 +104,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsProject1" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.pagetestcasescosto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="apps.pagetestcasescosto" />
-      <option name="MAIN_CLASS_NAME" value="apps.pagetestcasescosto.SearchTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loginTest.signInOrRegister" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsProject1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.pagetestcasescosto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.pagetestcasescosto" />
-      <option name="MAIN_CLASS_NAME" value="apps.pagetestcasescosto.loginTest" />
-      <option name="METHOD_NAME" value="signInOrRegister" />
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,18 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="logoSearchTest.logoCheck" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsProject1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.costco.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.costco" />
-      <option name="MAIN_CLASS_NAME" value="apps.costco.logoSearchTest" />
-      <option name="METHOD_NAME" value="logoCheck" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
@@ -202,11 +135,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddToCartTest.addToCart" />
-        <item itemvalue="TestNG.C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" />
-        <item itemvalue="TestNG.loginTest.signInOrRegister" />
-        <item itemvalue="TestNG.SearchTest" />
-        <item itemvalue="TestNG.logoSearchTest.logoCheck" />
+
       </list>
     </recent_temporary>
   </component>
@@ -243,5 +172,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
