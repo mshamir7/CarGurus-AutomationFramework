@@ -10,7 +10,7 @@ import pages.cargurus.TestDriveReviewPage;
 
 public class TestDriveReviews extends CommonAPI {
 
-    // @Test
+     @Test
     public void testDriveReviewsOverView() {
         HomePage homePage = new HomePage(getDriver());
         ResearchNewAndUsedCarsPage researchNewandUsedCarsPage = new ResearchNewAndUsedCarsPage(getDriver());
@@ -23,7 +23,7 @@ public class TestDriveReviews extends CommonAPI {
         Assert.assertEquals("2021 Acura ILX Review", getDriver().getTitle());
     }
 
-    //@Test
+    @Test
     public void testDriveReviewsUserReview() {
         HomePage homePage = new HomePage(getDriver());
         ResearchNewAndUsedCarsPage researchNewandUsedCarsPage = new ResearchNewAndUsedCarsPage(getDriver());

@@ -21,6 +21,24 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//body/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/span[1]/a[1]/*[1]")
     private WebElement addCarReviewBtn;
 
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[2]/div[1]/section[1]/div[2]/div[2]/a[1]/div[1]/div[1]/img[1]")
+    private WebElement recommendedForYouListing;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]")
+    private WebElement recentActivityListing;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[4]/div[1]/section[1]/div[2]/div[1]/a[1]/div[1]/div[1]/img[1]")
+    private WebElement recentPriceDropsListing;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[4]/div[1]/section[1]/div[2]/div[1]/a[1]/div[1]/div[1]/img[1]")
+    private WebElement modelsYouMayLike;
+
+    @FindBy(xpath = "//div[contains(text(),'Family friendly')]")
+    private WebElement familyFriendlyBtn;
+
+
+
+
 
     //USED CAR OBJECTS: -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -149,6 +167,19 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[1]/div/div/div[2]/ul/li[1]/a/span")
     private WebElement buyMenuDealershipNearMeLink;
 
+    @FindBy(xpath = "//span[contains(text(),'Delivery')]")
+    private WebElement deliveryLink;
+
+
+    //FINANCE MENU OBJECTS: --------------------------------------------------------------------------------------------------------------------------------------
+
+    @FindBy(xpath = "//span[contains(text(),'Finance')]")
+    private WebElement clickHeaderFinanceBtn;
+
+    @FindBy(xpath = "//span[contains(text(),'Prequalify for Financing')]")
+    private WebElement preQualifyForFinancingLink;
+
+
 
     //PROFILE DROPDOWN LIST OBJECTS: -----------------------------------------------------------------------------------------------------------------------------
 
@@ -180,6 +211,28 @@ public class HomePage extends CommonAPI {
     public void clickAddCarReviewBtn(){
         click(addCarReviewBtn);
     }
+
+    public void clickRecommendedForYouListing(){
+        click(recommendedForYouListing);
+    }
+
+    public void clickRecentActivityListing(){
+        click(recentActivityListing);
+    }
+
+    public void clickRecentPriceDropsListing(){
+        click(recentPriceDropsListing);
+    }
+
+    public void clickModelsYouMayLike(){
+        click(modelsYouMayLike);
+    }
+
+    public void clickFamilyFriendlyTrendingSearch(){
+        click(familyFriendlyBtn);
+    }
+
+
 
 
     //USED CAR METHODS: --------------------------------------------------------------------------------------------------------------------------------------
@@ -342,6 +395,23 @@ public class HomePage extends CommonAPI {
     public void clickHeaderBuyBtn(){
         click(clickHeaderBuyBtn);
     }
+
+    public void clickDeliveryLink(){
+        click(deliveryLink);
+    }
+
+
+    //FINANCE MENU METHODS: ---------------------------------------------------------------------------------------------------------------------------------
+
+    public void hoverOverHeaderFinanceBtn(WebDriver driver){
+        hoverOver(driver, clickHeaderFinanceBtn);
+    }
+
+    public void clickPreQualifyForFinancingLink(){
+        click(preQualifyForFinancingLink);
+    }
+
+
 
     //PROFILE DROPDOWN LIST METHODS: ------------------------------------------------------------------------------------------------------------------------
 
