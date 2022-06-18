@@ -5,15 +5,15 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CreateAccountTest extends CommonAPI {
-
-@Test
+@Test(enabled = false)
     public void CreateAccount(){
-    hoverOver("//*[@id='createAccount']");
-    waitFor(5);
-    click("//*[@id='createAccount']");
-    String expectedMessage ="Create Account | Costco";
-    Assert.assertEquals(expectedMessage,getPageTitle());
-    waitFor(5);
+    hoverOver("//*[@id=\"header_sign_in\"]");
+    waitFor(3);
+
+    //String expectedTitle="Sign In | Costco";
+    //String actualTitle =
+    //Assert.assertEquals(expectedTitle,getPageTitle());
+
 
 
 }

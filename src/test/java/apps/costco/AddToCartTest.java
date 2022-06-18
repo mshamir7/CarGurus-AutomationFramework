@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AddToCartTest extends CommonAPI {
-    @Test
+    @Test(enabled = false)
     public  void addToCart(){
 
         type("#search-field", "kid book");

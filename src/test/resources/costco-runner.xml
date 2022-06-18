@@ -5,12 +5,12 @@
     <parameter name="url" value="https://www.costco.ca"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="windows"></parameter>
-    <test name="costco tests by xml runner ">
+    <test name=" costco search">
         <classes>
-
-            <class name="apps.costco.logoSearchTest"></class>
+            <class name="apps.pagetestcasescosto.loginTest"></class>
         </classes>
     </test>
+
 
 
 

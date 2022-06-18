@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +53,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="apps.pagetestcases.costo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1\test_cases" />
       <recent name="C:\Users\14038\IdeaProjects\DataMisfitsProject1" />
@@ -63,28 +68,16 @@
     </key>
   </component>
 
-    <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="PATTERN" value="apps.pagetestcasescosto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="apps.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" value="apps.pagetestcasescosto" />
+      <option name="MAIN_CLASS_NAME" value="apps.pagetestcasescosto.AddToCartTest" />
+      <option name="METHOD_NAME" value="addToCart" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -93,8 +86,18 @@
     </configuration>
     <configuration name="C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataMisfitsProject1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/costco-runner.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,34 +105,13 @@
       </method>
     </configuration>
 
-      <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.FilterSearchResultsUsedCars" />
-      <option name="METHOD_NAME" value="byPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing.byPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="byPrice" />
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +127,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.AddToCartTest.addToCart" />
+      <item itemvalue="TestNG.loginTest.signInOrRegister" />
+      <item itemvalue="TestNG.SearchTest" />
       <item itemvalue="TestNG.C:/Users/14038/IdeaProjects/DataMisfitsProject1/src/test/resources/costco-runner.xml" />
       <item itemvalue="TestNG.logoSearchTest.logoCheck" />
-      <item itemvalue="TestNG.AddCartTest.test1" />
-      <item itemvalue="TestNG.SearchTest" />
-      <item itemvalue="TestNG.SearchTest.test1" />
     </list>
     <recent_temporary>
       <list>
