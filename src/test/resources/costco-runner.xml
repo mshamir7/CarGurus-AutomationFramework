@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="costco smoke test">
+
+    <parameter name="url" value="https://www.costco.ca"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <test name=" costco search">
+        <classes>
+            <class name="apps.pagetestcasescosto.loginTest"></class>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>

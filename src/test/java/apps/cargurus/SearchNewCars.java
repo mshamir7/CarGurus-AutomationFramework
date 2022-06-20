@@ -9,7 +9,7 @@ import pages.cargurus.SearchResultPage;
 
 public class SearchNewCars extends CommonAPI {
 
-   // @Test
+     @Test
     public void byMakeModelNew(){
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -23,7 +23,7 @@ public class SearchNewCars extends CommonAPI {
         Assert.assertEquals("New Audi S5 for Sale in Forest Hills, NY - CarGurus", actual);
     }
 
-    //@Test
+    @Test
     public void byBodyStyleNew(){
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
