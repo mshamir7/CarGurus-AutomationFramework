@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/AddCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/HomePageClickTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/automationpractice/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/automationpractice/LogInPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/automationpractice/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/automationpractice/AddCartTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/automationpractice/HomePageClickTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/automationpractice/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/automationpractice/SearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" afterDir="false" />
+    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="kevin's update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/CustomerServicePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/AddCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +33,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,36 +72,35 @@
       <recent name="$PROJECT_DIR$/driver/windows" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTest (1)">
-    <configuration name="AddCartTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BootCampProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="PATTERN" value="apps.bjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apps.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="apps.bjs" />
+      <option name="MAIN_CLASS_NAME" value="apps.bjs.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
+    <configuration name="LoginTest.validLoginCred" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="PATTERN" value="apps.bjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apps.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="apps.bjs" />
+      <option name="MAIN_CLASS_NAME" value="apps.bjs.LoginTest" />
+      <option name="METHOD_NAME" value="validLoginCred" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,24 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.automationpractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.phptravels" />
-      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.SearchTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BootCampProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" />
@@ -161,13 +135,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/bjs-runner.xml" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.validLoginCred" />
         <item itemvalue="TestNG.SearchTest (1)" />
         <item itemvalue="TestNG./Users/kevinschool/IdeaProjects/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" />
-        <item itemvalue="TestNG.AddCartTest.test1 (1)" />
-        <item itemvalue="TestNG.AddCartTest.test1" />
-        <item itemvalue="TestNG.SearchTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654007294358</updated>
     </task>
+    <task id="LOCAL-00001" summary="kevin's update">
+      <created>1655748076824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655748076824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kevin's update" />
+    <option name="LAST_COMMIT_MESSAGE" value="kevin's update" />
   </component>
 </project>
