@@ -1,15 +1,8 @@
 package apps.cargurus;
 
 import base.CommonAPI;
-import com.google.common.base.Verify;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.cargurus.HomePage;
-import pages.cargurus.SearchResultPage;
-import pages.cargurus.ShoppingForAUsedCarPage;
-
-import java.util.concurrent.TimeUnit;
 
 public class SearchUsedCars extends CommonAPI {
 
@@ -17,14 +10,12 @@ public class SearchUsedCars extends CommonAPI {
     public void byMakeAndModelUsed() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
-        getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         homePage.selectUsedCarMakeDropDownList("Acura");
         homePage.selectUsedCarModelDropDownList("ILX");
         homePage.typeUsedCarMakeModelZipCode("11375");
         homePage.clickUsedCarMakeModelSearchBtn();
-        waitFor(3);
-        String acutalCar = searchResultPage.getSearchResultHeaderTextUsedCarTitle();
-        Assert.assertEquals("Acura ILX", acutalCar);
+        String actualCar = searchResultPage.getSearchResultHeaderTextUsedCarTitle();
+        Assert.assertEquals("Acura ILX", actualCar);
         String actualZipCodeLocation = searchResultPage.getSearchResultHeaderTextZipCodeLocation();
         Assert.assertEquals("Forest Hills, NY", actualZipCodeLocation);
     }
@@ -37,7 +28,6 @@ public class SearchUsedCars extends CommonAPI {
         homePage.clickUsedCarByBodyStyleSedanOption();
         homePage.typeByBodyStyleZipCode("11375");
         homePage.clickUsedCarByBodyStyleSearchBtn();
-        waitFor(2);
         String acutalBodyStyle = searchResultPage.getSearchResultHeaderTextUsedCarBodyStyle();
         Assert.assertEquals("Sedans", acutalBodyStyle);
     }

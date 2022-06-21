@@ -25,13 +25,12 @@
             <class name="apps.cargurus.GeneralQuestion"></class>
             <class name="apps.cargurus.PopularSearchListings"></class>
             <class name="apps.cargurus.PriceTrends"></class>
-            <class name="apps.cargurus.recommendedCarsBasedOnSearchHistory"></class>
             <class name="apps.cargurus.TestDriveReviews"></class>
 
             <class name="apps.cargurus.GeneralQuestion"></class>
             <class name="apps.cargurus.InstantMarketValue"></class>
             <class name="apps.cargurus.PreQualify"></class>
-            <class name="apps.cargurus.recommendedCarsBasedOnSearchHistory"></class>
+            <class name="apps.cargurus.RecommendedCarsBasedOnSearchHistory"></class>
             <class name="apps.cargurus.ShoppingForAUsedCar"></class>
         </classes>
     </test>

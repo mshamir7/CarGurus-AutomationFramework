@@ -6,9 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static org.apache.commons.lang3.StringUtils.deleteWhitespace;
-import static org.apache.commons.lang3.StringUtils.normalizeSpace;
-
 public class TestDriveReviewPage extends CommonAPI {
 
     @FindBy(xpath = "//*[@id='contentBody']/div/div[1]/div[2]/nav/ul/li[2]/a")

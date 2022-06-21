@@ -1,14 +1,6 @@
 package apps.cargurus;
 
 import base.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import pages.cargurus.HomePage;
-import pages.cargurus.SearchResultPage;
-import pages.cargurus.ShoppingForAUsedCarPage;
-import pages.cargurus.WhatsMyCarWorthPage;
 
 public class Testing extends CommonAPI {
 

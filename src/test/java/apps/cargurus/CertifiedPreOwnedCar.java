@@ -3,8 +3,6 @@ package apps.cargurus;
 import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.cargurus.HomePage;
-import pages.cargurus.SearchResultPage;
 
 public class CertifiedPreOwnedCar extends CommonAPI {
 
@@ -16,7 +14,7 @@ public class CertifiedPreOwnedCar extends CommonAPI {
         homePage.selectCertifiedPreownedCarAllMakesDropDownList("INFINITI");
         homePage.selectCertifiedPreownedCarAllModelsDropDownList("Q60");
         homePage.typeCertifiedPreownedCarZipCode("11375");
-        String acutalTitle = getDriver().getTitle();
-        Assert.assertEquals("Certified INFINITI Q60 For Sale Forest Hills, NY - CarGurus", acutalTitle);
+        String actualTitle = getDriver().getTitle();
+        Assert.assertEquals("Certified INFINITI Q60 For Sale Forest Hills, NY - CarGurus", actualTitle);
     }
 }

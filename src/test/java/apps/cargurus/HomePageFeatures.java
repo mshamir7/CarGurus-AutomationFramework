@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.cargurus.HomePage;
 
 public class HomePageFeatures extends CommonAPI {
 
@@ -15,7 +14,6 @@ public class HomePageFeatures extends CommonAPI {
         HomePage homePage = new HomePage(getDriver());
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);", getDriver().findElement(By.cssSelector("button[class='c2dVinFormSubmit c2d-banner-cta']")));
-        waitFor(7);
         homePage.clickRecommendedForYouListing();
         Assert.assertTrue(getDriver().findElement(By.cssSelector("h1[class='IpF2YF']")).isDisplayed());
     }

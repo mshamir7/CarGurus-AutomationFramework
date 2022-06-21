@@ -4,8 +4,6 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.cargurus.AllCarQuestionsPage;
-import pages.cargurus.HomePage;
 
 public class GeneralQuestion extends CommonAPI {
 

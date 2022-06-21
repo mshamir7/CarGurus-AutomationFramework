@@ -3,32 +3,41 @@ package apps.cargurus;
 import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.cargurus.HomePage;
-import pages.cargurus.LogInPage;
+import utility.Utility;
 
-import java.util.concurrent.TimeUnit;
+import java.util.Properties;
 
 public class Login extends CommonAPI {
+
+    Properties prop = Utility.loadProperties();
+    String duration = prop.getProperty("implicit.wait");
 
     @Test
     public void loginValidCred() {
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
-        waitFor(3);
         homePage.clickSignInBtn();
-        login.enterEmail("ravenn587@aol.com");
+        login.enterEmail("Ravenn587@aol.com");
         login.enterEmailNextBtn();
-        login.enterPassword("Abcd1234*?");
+        String passwordDecode = Utility.decode("QWJjZDEyMzQqPw==");
+        login.enterPassword(passwordDecode);
         login.enterPasswordSignInBtn();
-        waitFor(3);
         String actual = homePage.getAccountUserName();
         Assert.assertEquals("RavenN1", actual);
-        waitFor(3);
+    }
 
-        //Sign out of user profile
-
+    //Sign out of user profile
+    @Test
+    public void signOutOfUserProfile() {
+        HomePage homePage = new HomePage(getDriver());
+        LogInPage login = new LogInPage(getDriver());
+        homePage.clickSignInBtn();
+        login.enterEmail("Ravenn587@aol.com");
+        login.enterEmailNextBtn();
+        String passwordDecode = Utility.decode("QWJjZDEyMzQqPw==");
+        login.enterPassword(passwordDecode);
+        login.enterPasswordSignInBtn();
         homePage.clickProfileMenuDropDown();
-        waitFor(3);
         homePage.signOutProfileUsingDropDown();
         // Assert.assertEquals("Sell your car | It’s free & 100% online | CarGurus - CarGurus", driver.getTitle());
     }
@@ -37,16 +46,13 @@ public class Login extends CommonAPI {
     public void loginInvalidCred() {
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
-        getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        waitFor(3);
         homePage.clickSignInBtn();
         login.enterEmail("ravenn587@aol.com");
         login.enterEmailNextBtn();
-        login.enterPassword("Abd1234*?");
+        String passwordDecode = Utility.decode("QWJkMTIzNCo/");
+        login.enterPassword(passwordDecode);
         login.enterPasswordSignInBtn();
         String actual = login.invalidPasswordErrorText();
         Assert.assertEquals("Incorrect email address or password", actual);
-        waitFor(5);
-
     }
 }

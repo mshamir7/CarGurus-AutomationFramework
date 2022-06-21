@@ -4,13 +4,10 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.cargurus.HomePage;
-import pages.cargurus.ResearchNewAndUsedCarsPage;
-import pages.cargurus.TestDriveReviewPage;
 
 public class TestDriveReviews extends CommonAPI {
 
-     @Test
+    @Test
     public void testDriveReviewsOverView() {
         HomePage homePage = new HomePage(getDriver());
         ResearchNewAndUsedCarsPage researchNewandUsedCarsPage = new ResearchNewAndUsedCarsPage(getDriver());
@@ -20,7 +17,7 @@ public class TestDriveReviews extends CommonAPI {
         researchNewandUsedCarsPage.selectChooseACarModelDropDownList("ILX");
         researchNewandUsedCarsPage.selectChooseACarYearDropDownList("2021");
         researchNewandUsedCarsPage.clickResearchNewAndUsedCarSearchBtn();
-        Assert.assertEquals("2021 Acura ILX Review", getDriver().getTitle());
+        Assert.assertEquals("2021 Acura ILX Test Drive Review - CarGurus", getDriver().getTitle());
     }
 
     @Test
@@ -35,7 +32,6 @@ public class TestDriveReviews extends CommonAPI {
         researchNewandUsedCarsPage.selectChooseACarYearDropDownList("2021");
         researchNewandUsedCarsPage.clickResearchNewAndUsedCarSearchBtn();
         testDriveReviewPage.clickResearchNewAndUsedCarUserReviewTab();
-        waitFor(2);
         Assert.assertEquals("2021 Acura ILX - User Reviews - CarGurus", getDriver().getTitle());
     }
 
@@ -51,10 +47,7 @@ public class TestDriveReviews extends CommonAPI {
         researchNewandUsedCarsPage.selectChooseACarYearDropDownList("2021");
         researchNewandUsedCarsPage.clickResearchNewAndUsedCarSearchBtn();
         testDriveReviewPage.clickResearchNewAndUsedCarTrimAndSpecsTab();
-        waitFor(2);
         String actualTrimAndSpecsTitle = getDriver().findElement(By.xpath("//*[@id='contentBody']/div/div[1]/h1/span")).getText();
-        Assert.assertEquals("2021 Acura ILX Trims and Specs", actualTrimAndSpecsTitle );
-
-
+        Assert.assertEquals("2021 Acura ILX Trims and Specs", actualTrimAndSpecsTitle);
     }
 }

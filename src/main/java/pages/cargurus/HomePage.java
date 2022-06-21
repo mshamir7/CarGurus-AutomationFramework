@@ -5,12 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class HomePage extends CommonAPI {
 
+    private final Logger LOG = LoggerFactory.getLogger(HomePage.class);
 
     @FindBy(css = ".navTitle")
     private WebElement signInBtn;
+
 
     @FindBy(xpath = "//*[@id='authLink']")
     private WebElement signOutProfileDropDown;
@@ -81,6 +85,7 @@ public class HomePage extends CommonAPI {
     @FindBy(css = "#dealFinderFormPrice_0")
     private WebElement usedCarByPriceSearchButton;
 
+
     //NEW CAR OBJECTS: --------------------------------------------------------------------------------------------------------------------------------------
 
     @FindBy(xpath = "//*[text()='New Car']")
@@ -140,6 +145,17 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[2]/a/span")
     private WebElement carValuesLink;
 
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[1]/a/span")
+    private WebElement sellMyCarLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[3]/a/span")
+    private WebElement sellMyCarFAQLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[3]/ul/li/a/span")
+    private WebElement dealerSignUpLink;
+
+
+
 
     //RESEARCH MENU OBJECTS: ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -170,6 +186,17 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//span[contains(text(),'Delivery')]")
     private WebElement deliveryLink;
 
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[1]/div/div/div[1]/ul/li[2]/a/span")
+    private WebElement newCarLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[1]/div/div/div[1]/ul/li[3]/a/span")
+    private WebElement certifiedCarLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[1]/div/div/div[1]/ul/li[3]/a/span")
+    private WebElement buyingACarDuringCoronaVirusFAQLink;
+
+
+
 
     //FINANCE MENU OBJECTS: --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -178,6 +205,13 @@ public class HomePage extends CommonAPI {
 
     @FindBy(xpath = "//span[contains(text(),'Prequalify for Financing')]")
     private WebElement preQualifyForFinancingLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[3]/div/div/div[3]/ul/li[3]/a/span")
+    private WebElement financeFAQLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[3]/div/div/div[4]/ul/li/a/span")
+    private WebElement loanCalculatorLink;
+
 
 
 
@@ -198,13 +232,16 @@ public class HomePage extends CommonAPI {
 
     public void clickSignInBtn() {
         click(signInBtn);
+        LOG.info("Clicked Sign In Button");
     }
 
     public void signOutProfileUsingDropDown() {
         click(signOutProfileDropDown);
+        LOG.info("Clicked Profile DropDown");
     }
 
     public String getAccountUserName() {
+        LOG.info("Get Account username success");
         return getElementText(accountUserName);
     }
 
@@ -364,6 +401,20 @@ public class HomePage extends CommonAPI {
         click(carValuesLink);
     }
 
+    public void clickSellMyCarLink(){
+        click(sellMyCarLink);
+    }
+
+    public void clickSellMyCarFAQLink(){
+        click(sellMyCarFAQLink);
+    }
+
+    public void clickDealerSignUpLink(){
+        click(dealerSignUpLink);
+    }
+
+
+
     //RESEARCH MENU METHODS: ----------------------------------------------------------------------------------------------------------------------------------
 
     public void hoverOverResearchMenu(WebDriver driver){
@@ -400,6 +451,19 @@ public class HomePage extends CommonAPI {
         click(deliveryLink);
     }
 
+    public void clickNewCarLink(){
+        click(newCarLink);
+    }
+
+    public void clickCertifiedCarLink(){
+        click(certifiedCarLink);
+    }
+
+    public void clickBuyingACarDuringCoronaVirusFAQLink(){
+        click(buyingACarDuringCoronaVirusFAQLink);
+    }
+
+
 
     //FINANCE MENU METHODS: ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -409,6 +473,14 @@ public class HomePage extends CommonAPI {
 
     public void clickPreQualifyForFinancingLink(){
         click(preQualifyForFinancingLink);
+    }
+
+    public void clickFinanceFAQLink(){
+        click(financeFAQLink);
+    }
+
+    public void clickLoanCalculatorLink(){
+        click(loanCalculatorLink);
     }
 
 
