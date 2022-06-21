@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/AddCarReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/AddCarReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/BuyMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/BuyMenuLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/DealerShipsNearMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/DealerShipsNearMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FinanceMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FinanceMenuLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/GeneralQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/GeneralQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/HomePageFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/HomePageFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/InstantMarketValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/InstantMarketValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PopularSearchListings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PopularSearchListings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PreQualify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PreQualify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PriceTrends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PriceTrends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/RecommendedCarsBasedOnSearchHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/RecommendedCarsBasedOnSearchHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SellMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SellMenuLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/ShoppingForAUsedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/ShoppingForAUsedCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222303PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222305PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222310PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching2 061520222303PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching2 061520222305PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching2 061520222310PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching3 061520222303PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching3 061520222305PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching3 061520222310PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
