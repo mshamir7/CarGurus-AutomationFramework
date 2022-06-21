@@ -3,6 +3,8 @@ package apps.cargurus;
 import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.cargurus.HomePage;
+import pages.cargurus.LogInPage;
 import utility.Utility;
 
 import java.util.Properties;

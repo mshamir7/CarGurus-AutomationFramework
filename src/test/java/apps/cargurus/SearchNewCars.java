@@ -4,6 +4,8 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.cargurus.HomePage;
+import pages.cargurus.SearchResultPage;
 
 public class SearchNewCars extends CommonAPI {
 

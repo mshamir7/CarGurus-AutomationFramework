@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/AddCarReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/AddCarReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/BuyMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/BuyMenuLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CarValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedPreOwnedCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/DealerShipsNearMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/DealerShipsNearMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FinanceMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FinanceMenuLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/GeneralQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/GeneralQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/HomePageFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/HomePageFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/InstantMarketValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/InstantMarketValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PopularSearchListings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PopularSearchListings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PreQualify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PreQualify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/PriceTrends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/PriceTrends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/RecommendedCarsBasedOnSearchHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/RecommendedCarsBasedOnSearchHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchUsedCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SellMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SellMenuLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/ShoppingForAUsedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/ShoppingForAUsedCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +42,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,9 +53,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="29vxKHKPhz8R2VTV4aVxdZV63t6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,78 +61,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProject1/src/main/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/QA/DataMisfitsProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\QA\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
+      <recent name="X:\QA\DataMisfitsProject1\src\main\resources" />
+      <recent name="X:\QA\DataMisfitsProject1\src" />
     </key>
   </component>
-
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.bjs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.bjs" />
-      <option name="MAIN_CLASS_NAME" value="apps.bjs.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing.byPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml">
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.ExcelReader" />
       <module name="BootCampProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
+          <option name="PATTERN" value="utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="byPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.RunExcelReader" />
+      <module name="BootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Utility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.Utility" />
+      <module name="BootCampProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="X:/QA/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/automationpractice-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-
+    <configuration name="X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCampProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -124,7 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-
+        <item itemvalue="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
+        <item itemvalue="Application.ExcelReader" />
+        <item itemvalue="Application.Utility" />
+        <item itemvalue="Application.RunExcelReader" />
+        <item itemvalue="TestNG.X:/QA/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -137,14 +167,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654007294358</updated>
     </task>
-    <task id="LOCAL-00001" summary="kevin's update">
-      <created>1655748076824</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1655748076824</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +193,24 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

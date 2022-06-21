@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.cargurus.DeliveryPage;
+import pages.cargurus.HomePage;
 
 public class InstantMarketValue extends CommonAPI {
 
