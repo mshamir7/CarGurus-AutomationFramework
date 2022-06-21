@@ -14,7 +14,6 @@ public class Login extends CommonAPI {
     public void loginValidCred() {
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
-        getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         waitFor(3);
         homePage.clickSignInBtn();
         login.enterEmail("ravenn587@aol.com");

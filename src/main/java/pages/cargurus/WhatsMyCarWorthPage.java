@@ -9,28 +9,31 @@ import org.openqa.selenium.support.PageFactory;
 public class WhatsMyCarWorthPage extends CommonAPI {
 
     @FindBy(css = "#carPicker_purposeSelect")
-    WebElement purposeDropDownList;
+    private WebElement purposeDropDownList;
 
     @FindBy(css = "#carPicker_makerSelect")
-    WebElement makeDropDownList;
+    private WebElement makeDropDownList;
 
     @FindBy(css = "#carPicker_modelSelect")
-    WebElement modelDropDownList;
+    private WebElement modelDropDownList;
 
     @FindBy(css = "#carPicker_year1Select")
-    WebElement yearDropDownList;
+    private WebElement yearDropDownList;
 
     @FindBy(css = "#carPicker_trimSelect")
-    WebElement trimDropDownList;
+    private WebElement trimDropDownList;
 
     @FindBy(css = "#listingFormZip")
-    WebElement typeCarValuesZipCode;
+    private WebElement typeCarValuesZipCode;
 
     @FindBy(css = "#instantMarketToolForm_carDescription_price")
-    WebElement typeCarValuesPrice;
+    private WebElement typeCarValuesPrice;
 
     @FindBy(css = ".new-car")
-    WebElement priceReportAssertionLogo;
+    private WebElement priceReportAssertionLogo;
+
+    @FindBy(xpath = "//*[@class='new-car']")
+    private WebElement priceReportAssertionLogos;
 
 
     public WhatsMyCarWorthPage(WebDriver driver) {
@@ -64,7 +67,7 @@ public class WhatsMyCarWorthPage extends CommonAPI {
     }
 
     public boolean assertPriceReportAssertionLogo(){
-        boolean present = isPresent(priceReportAssertionLogo);
+        boolean present = !(isPresent(priceReportAssertionLogos));
         return present;
     }
 }

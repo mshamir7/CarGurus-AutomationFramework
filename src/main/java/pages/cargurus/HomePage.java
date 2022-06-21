@@ -8,18 +8,39 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends CommonAPI {
 
-    //USED CAR OBJECTS: -------------------------------------------------------------------------------------------------------------------------------------
+
     @FindBy(css = ".navTitle")
     private WebElement signInBtn;
-
-    @FindBy(css = "#account-menu-control")
-    private WebElement profileMenuDropDown;
 
     @FindBy(xpath = "//*[@id='authLink']")
     private WebElement signOutProfileDropDown;
 
     @FindBy(xpath = "//*[@id='account-menu-username']")
     private WebElement accountUserName;
+
+    @FindBy(xpath = "//body/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/span[1]/a[1]/*[1]")
+    private WebElement addCarReviewBtn;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[2]/div[1]/section[1]/div[2]/div[2]/a[1]/div[1]/div[1]/img[1]")
+    private WebElement recommendedForYouListing;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]")
+    private WebElement recentActivityListing;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[4]/div[1]/section[1]/div[2]/div[1]/a[1]/div[1]/div[1]/img[1]")
+    private WebElement recentPriceDropsListing;
+
+    @FindBy(xpath = "//body/main[@id='main']/div[2]/div[3]/div[4]/div[1]/section[1]/div[2]/div[1]/a[1]/div[1]/div[1]/img[1]")
+    private WebElement modelsYouMayLike;
+
+    @FindBy(xpath = "//div[contains(text(),'Family friendly')]")
+    private WebElement familyFriendlyBtn;
+
+
+
+
+
+    //USED CAR OBJECTS: -------------------------------------------------------------------------------------------------------------------------------------
 
     @FindBy(css = "#carPickerUsed_makerSelect")
     private WebElement usedCarMakeDropdownListOption;
@@ -87,37 +108,86 @@ public class HomePage extends CommonAPI {
     private WebElement newCarByBodyStyleZipCode;
 
     @FindBy(xpath = "//*[@id='newSearchTabs']/label[3]/span")
-    WebElement newCarByPriceTabLink;
+    private WebElement newCarByPriceTabLink;
 
     @FindBy(xpath = "//*[@id='dealFinderFormPriceNew']/fieldset/div/div[1]/select")
-    WebElement newCarByPriceDropDownListMin;
+    private WebElement newCarByPriceDropDownListMin;
 
     @FindBy(xpath = "//*[@id='dealFinderFormPriceNew']/fieldset/div/div[2]/select")
-    WebElement newCarByPriceDropDownListMax;
+    private WebElement newCarByPriceDropDownListMax;
 
     @FindBy(css = "#dealFinderZipUsedId_dealFinderFormPriceNew")
-    WebElement newCarByPriceZipCode;
+    private WebElement newCarByPriceZipCode;
 
     @FindBy(xpath = "//*[text()='Certified Pre-Owned']")
-    WebElement certifiedPreownedCarTab;
+    private WebElement certifiedPreownedCarTab;
 
     @FindBy(xpath = "//*[@id='carPickerCpo_makerSelect']" )
-    WebElement certifiedPreownedCarAllMakesDropDownList;
+    private WebElement certifiedPreownedCarAllMakesDropDownList;
 
     @FindBy(xpath = "//*[@id='carPickerCpo_modelSelect']")
-    WebElement certifiedPreownedCarAllModelsDropDownList;
+    private WebElement certifiedPreownedCarAllModelsDropDownList;
 
     @FindBy(css = "#dealFinderZipCPOId")
-    WebElement certifiedPreownedCarZipCode;
+    private WebElement certifiedPreownedCarZipCode;
 
 
-    //SELL MENU OBJECTS: ------------------------------------------------------------------------------------------------------------------------------------------
+    //SELL MENU OBJECTS: --------------------------------------------------------------------------------------------------------------------------------------
 
     @FindBy(xpath = "//*[text()='Sell']")
-    WebElement hoverOverSell;
+    private WebElement hoverOverSell;
 
-    @FindBy(xpath = "//*[text()='Car Values']")
-    WebElement carValuesLink;
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[2]/a/span")
+    private WebElement carValuesLink;
+
+
+    //RESEARCH MENU OBJECTS: ----------------------------------------------------------------------------------------------------------------------------------
+
+    @FindBy(xpath = "//*[text()='Research']")
+    private WebElement hoverOverResearchMenu;
+
+    @FindBy(xpath = "//*[text()='Test Drive Reviews']")
+    private WebElement testDriveReviewsLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[4]/div/div/div[5]/ul/li/a/span")
+    private WebElement generalQuestionsLink;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[4]/div/div/div[4]/ul/li[2]/a/span")
+    private WebElement researchMenuPriceTrendsLink;
+
+
+    //BUY MENU OBJECTS: ----------------------------------------------------------------------------------------------------------------------------------
+
+    @FindBy(xpath = "//*[@id='wai_snm_cnl_buy']/span")
+    private WebElement clickHeaderBuyBtn;
+
+    @FindBy(xpath = "//*[@id='wai_snm_cnl_buy']/span")
+    private WebElement hoverOverBuyMenu;
+
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[1]/div/div/div[2]/ul/li[1]/a/span")
+    private WebElement buyMenuDealershipNearMeLink;
+
+    @FindBy(xpath = "//span[contains(text(),'Delivery')]")
+    private WebElement deliveryLink;
+
+
+    //FINANCE MENU OBJECTS: --------------------------------------------------------------------------------------------------------------------------------------
+
+    @FindBy(xpath = "//span[contains(text(),'Finance')]")
+    private WebElement clickHeaderFinanceBtn;
+
+    @FindBy(xpath = "//span[contains(text(),'Prequalify for Financing')]")
+    private WebElement preQualifyForFinancingLink;
+
+
+
+    //PROFILE DROPDOWN LIST OBJECTS: -----------------------------------------------------------------------------------------------------------------------------
+
+    @FindBy(css = "#account-menu-control")
+    private WebElement profileMenuDropDown;
+
+    @FindBy(xpath = "//*[@id='account-menu-content']/ul/li[4]/a")
+    private WebElement recommendedCarsProfileDropDownOption;
 
 
 
@@ -126,13 +196,8 @@ public class HomePage extends CommonAPI {
     }
 
 
-    //USED CAR METHODS: --------------------------------------------------------------------------------------------------------------------------------------
     public void clickSignInBtn() {
         click(signInBtn);
-    }
-
-    public void clickProfileMenuDropDown() {
-        click(profileMenuDropDown);
     }
 
     public void signOutProfileUsingDropDown() {
@@ -143,6 +208,35 @@ public class HomePage extends CommonAPI {
         return getElementText(accountUserName);
     }
 
+    public void clickAddCarReviewBtn(){
+        click(addCarReviewBtn);
+    }
+
+    public void clickRecommendedForYouListing(){
+        click(recommendedForYouListing);
+    }
+
+    public void clickRecentActivityListing(){
+        click(recentActivityListing);
+    }
+
+    public void clickRecentPriceDropsListing(){
+        click(recentPriceDropsListing);
+    }
+
+    public void clickModelsYouMayLike(){
+        click(modelsYouMayLike);
+    }
+
+    public void clickFamilyFriendlyTrendingSearch(){
+        click(familyFriendlyBtn);
+    }
+
+
+
+
+    //USED CAR METHODS: --------------------------------------------------------------------------------------------------------------------------------------
+
     public void selectUsedCarMakeDropDownList(String option) {
         selectFromDropdown(usedCarMakeDropdownListOption, option);
     }
@@ -152,7 +246,7 @@ public class HomePage extends CommonAPI {
     }
 
     public void typeUsedCarMakeModelZipCode(String zipcode) {
-        type(usedCarByBodyStyleZipCode, zipcode);
+        type(usedCarMakeModelZip, zipcode);
     }
 
     public void clickUsedCarMakeModelSearchBtn() {
@@ -261,7 +355,7 @@ public class HomePage extends CommonAPI {
         typeAndEnter(certifiedPreownedCarZipCode, text);
     }
 
-    //SELL MENU METHODS: ----------------------------------------------------------------------------------------------------------------------------------
+    //SELL MENU METHODS: ------------------------------------------------------------------------------------------------------------------------------------
     public void hoverOverSellMenu(WebDriver driver){
         hoverOver(driver, hoverOverSell);
     }
@@ -269,4 +363,64 @@ public class HomePage extends CommonAPI {
     public void clickCarValuesLink(){
         click(carValuesLink);
     }
+
+    //RESEARCH MENU METHODS: ----------------------------------------------------------------------------------------------------------------------------------
+
+    public void hoverOverResearchMenu(WebDriver driver){
+        hoverOver(driver, hoverOverResearchMenu);
+    }
+
+    public void clickTestDriveReviewsLink() {
+        click(testDriveReviewsLink);
+    }
+
+    public void clickResearchMenuGeneralQuestionLink(){
+        click(generalQuestionsLink);
+    }
+
+    public void clickResearchMenuPriceTrendsLink(){
+        click(researchMenuPriceTrendsLink);
+    }
+
+    //BUY MENU METHODS: ----------------------------------------------------------------------------------------------------------------------------------
+
+    public void hoverOverBuyMenu(WebDriver driver){
+        hoverOver(driver, hoverOverBuyMenu);
+    }
+
+    public void clickBuyMenuDealershipNearMeLink(){
+        click(buyMenuDealershipNearMeLink);
+    }
+
+    public void clickHeaderBuyBtn(){
+        click(clickHeaderBuyBtn);
+    }
+
+    public void clickDeliveryLink(){
+        click(deliveryLink);
+    }
+
+
+    //FINANCE MENU METHODS: ---------------------------------------------------------------------------------------------------------------------------------
+
+    public void hoverOverHeaderFinanceBtn(WebDriver driver){
+        hoverOver(driver, clickHeaderFinanceBtn);
+    }
+
+    public void clickPreQualifyForFinancingLink(){
+        click(preQualifyForFinancingLink);
+    }
+
+
+
+    //PROFILE DROPDOWN LIST METHODS: ------------------------------------------------------------------------------------------------------------------------
+
+    public void clickProfileMenuDropDown() {
+        click(profileMenuDropDown);
+    }
+    public void clickRecommendedCarsProfileDropDownOption() {
+        click(recommendedCarsProfileDropDownOption);
+    }
+
+
 }
