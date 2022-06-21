@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="automationpractice smoke">
+<suite name="bjs smoke">
     <parameter name="url" value="https://www.bjs.com/"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="mac"></parameter>
-    <test name="test1">
-        <classes>
-            <class name="apps.bjs.SearchTest"></class>
-        </classes>
-    </test>
-
-    <test name="test2">
-    <classes>
-    <class name="apps.bjs.AddCartTest"></class>
-    </classes>
-    </test>
-
-    <test name="test3">
+    <test name="login tests">
         <classes>
             <class name="apps.bjs.LoginTest"></class>
         </classes>
     </test>
+
+<!--    <test name="test2">-->
+<!--    <classes>-->
+<!--    <class name="apps.bjs.CustomerServiceTest"></class>-->
+<!--    </classes>-->
+<!--    </test>-->
+
+<!--    <test name="test3">-->
+<!--        <classes>-->
+<!--            <class name="apps.bjs.LoginTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>

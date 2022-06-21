@@ -4,7 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
 
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,36 +65,23 @@
       <recent name="X:\QA\DataMisfitsProject1\src\main\java\reporting" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml">
-    <configuration name="AddCartTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataMisfitsBootCampProject" />
+
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apps.automationpractice.*" />
+          <option name="PATTERN" value="apps.bjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apps.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="apps.automationpractice.AddCartTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="apps.bjs" />
+      <option name="MAIN_CLASS_NAME" value="apps.bjs.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterSearchResultsUsedCars.byPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.FilterSearchResultsUsedCars" />
-      <option name="METHOD_NAME" value="byPrice" />
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,27 +107,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing.searchUsedCarsFromShoppingForAUsedCarPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apps.cargurus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apps.cargurus" />
-      <option name="MAIN_CLASS_NAME" value="apps.cargurus.Testing" />
-      <option name="METHOD_NAME" value="searchUsedCarsFromShoppingForAUsedCarPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCampProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" />
+
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -150,11 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
-        <item itemvalue="TestNG.FilterSearchResultsUsedCars.byPrice" />
-        <item itemvalue="TestNG.Testing.byPrice" />
-        <item itemvalue="TestNG.Testing.searchUsedCarsFromShoppingForAUsedCarPage" />
-        <item itemvalue="TestNG.AddCartTest.test1" />
+
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654007294358</updated>
     </task>
+    <task id="LOCAL-00001" summary="kevin's update">
+      <created>1655748076824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655748076824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,16 +171,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+
   </component>
 </project>
