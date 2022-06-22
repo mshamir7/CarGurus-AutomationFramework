@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222303PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222305PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching1 061520222310PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching2 061520222303PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching2 061520222305PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching2 061520222310PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching3 061520222303PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching3 061520222305PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/prodSearching3 061520222310PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +55,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\QA\DataMisfitsProject" />
       <recent name="X:\QA\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
-      <recent name="X:\QA\DataMisfitsProject1\src\main\java\pages\cargurus" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
@@ -80,7 +67,7 @@
       <recent name="X:\QA\DataMisfitsProject1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml">
+  <component name="RunManager" selected="Application.Utility">
     <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utility.ExcelReader" />
       <module name="BootCampProject" />
@@ -142,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Utility" />
         <item itemvalue="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
         <item itemvalue="Application.ExcelReader" />
-        <item itemvalue="Application.Utility" />
         <item itemvalue="Application.RunExcelReader" />
         <item itemvalue="TestNG.X:/QA/DataMisfitsProject1/src/test/resources/automationpractice-runner.xml" />
       </list>
