@@ -26,7 +26,10 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(xpath = "//input[@id='zip']")
     private WebElement zipCode;
 
-    @FindBy(xpath = "//button[contains(text(),'Update Zip')]")
+    @FindBy(css = "input[class ='a6kph8']")
+    private WebElement updateZipCodeText;
+
+    @FindBy(css = "button[class = 'BnSO43 AQU0eZ QEqQC1']")
     private WebElement updateBtn;
 
     @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[2]/div[2]/section/p/span")
@@ -120,6 +123,14 @@ public class SearchResultPage extends CommonAPI {
 
     public void typeAndEnterZip(String text){
         typeAndEnter(zipCode, text);
+    }
+
+    public void typeUpdateZip(String text){
+        type(updateZipCodeText, text);
+    }
+
+    public void clearUpdateZip() {
+        clear(updateZipCodeText);
     }
 
     public void clickByPriceTab(){

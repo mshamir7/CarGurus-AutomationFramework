@@ -2,9 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="carsaver smoke">
-    <parameter name="url" value="https://www.cargurus.com"></parameter>
-    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
     <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="10"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="102"></parameter>
+    <parameter name="url" value="https://www.cargurus.com"></parameter>
+<!--    <parameter name="browser" value="chrome"></parameter>-->
+<!--    <parameter name="os" value="windows"></parameter>-->
 
 <!--        <test name="carsaver main functionalities">-->
 <!--            <classes>-->
@@ -39,7 +45,7 @@
 
     <test name="Regression suite1">
         <classes>
-            <class name="apps.cargurus.Login"></class>
+            <class name="apps.cargurus.FilterSearchResultsUsedCars"></class>
         </classes>
     </test>
 

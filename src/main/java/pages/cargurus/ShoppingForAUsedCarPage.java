@@ -33,7 +33,7 @@ public class ShoppingForAUsedCarPage extends CommonAPI {
     @FindBy(xpath = "//select[@id='radius']")
     private WebElement radius;
 
-    @FindBy(xpath = "//body/div[1]/main[1]/section[2]/div[1]/form[1]/button[1]")
+    @FindBy(xpath = "//*[@id='search-form']/form/button/div")
     private WebElement searchBtn;
 
 

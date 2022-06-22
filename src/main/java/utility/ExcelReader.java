@@ -5,12 +5,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class ExcelReader {
 
@@ -48,7 +48,7 @@ public class ExcelReader {
             excelWBook = new XSSFWorkbook(excelFile);
             excelWSheet = excelWBook.getSheet(sheet);
             for (int i = rowStart; i <= excelWSheet.getLastRowNum(); i++){
-                columnData.add(String.valueOf(excelWSheet.getRow(i).getCell(colNum).getNumericCellValue()));
+                columnData.add(String.valueOf(excelWSheet.getRow(i).getCell(colNum).getRawValue()));
             }
 //            int i = rowStart;
 //            while (excelWSheet.getRow(i).getCell(colNum).getStringCellValue() != null){
@@ -93,10 +93,10 @@ public class ExcelReader {
     }
 
     public static void main(String[] args)  {
-        String path = "X:\\QA\\DataMisfitsProject\\Search.xlsx";
+        String path = "X:\\QA\\PnTFinalProject-DataMisfits-\\Search.xlsx";
         ExcelReader excelReader = new ExcelReader(path);
         List<String> items = excelReader.getEntireColumnForGivenHeader("Sheet1", "Zipcodes");
-       // String items = excelReader.getValueForGivenHeaderAndKey("Sheet1", "id", "id004");
+        //String items = excelReader.getValueForGivenHeaderAndKey("Sheet1", "id", "id004");
         System.out.println(items);
     }
 }
