@@ -6,18 +6,18 @@
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="windows"></parameter>
 
-        <test name="carsaver main functionalities">
-            <classes>
-                <class name="apps.cargurus.Login"></class>
-                <class name="apps.cargurus.SearchUsedCars"></class>
-                <class name="apps.cargurus.SearchNewCars"></class>
-                <class name="apps.cargurus.FilterSearchResultsUsedCars"></class>
-                <class name="apps.cargurus.CarValues"></class>
-                <class name="apps.cargurus.CertifiedPreOwnedCar"></class>
-                <class name="apps.cargurus.DealerShipsNearMe"></class>
+<!--        <test name="carsaver main functionalities">-->
+<!--            <classes>-->
+<!--                <class name="apps.cargurus.Login"></class>-->
+<!--                <class name="apps.cargurus.SearchUsedCars"></class>-->
+<!--                <class name="apps.cargurus.SearchNewCars"></class>-->
+<!--                <class name="apps.cargurus.FilterSearchResultsUsedCars"></class>-->
+<!--                <class name="apps.cargurus.CarValues"></class>-->
+<!--                <class name="apps.cargurus.CertifiedPreOwnedCar"></class>-->
+<!--                <class name="apps.cargurus.DealerShipsNearMe"></class>-->
 
-            </classes>
-        </test>
+<!--            </classes>-->
+<!--        </test>-->
 
 <!--        <test name="Regression suite">-->
 <!--            <classes>-->

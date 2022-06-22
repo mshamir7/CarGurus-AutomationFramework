@@ -5,33 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/addCarReview 062220221411PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/byBodyStyleNew 062220221410PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/byBodyStyleUsed 062220221447PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/byPriceNew 062220221410PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062220221414PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/filterByBodyStyleSearchResultsPage 062220221446PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221411PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/signOutOfUserProfile 062220221409PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221412PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221412PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221413PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/byPriceNew 062220221500PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/sellMenuCarValues 062220221500PM.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/AddToCartPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/CreateAccntPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/LogoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/SearchIngPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/SearchResultPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/WarehouseLocationSelectPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/costco/loginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/SearchNewCars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
