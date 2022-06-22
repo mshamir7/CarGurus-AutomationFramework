@@ -11,10 +11,10 @@ public class LogInPage extends CommonAPI {
     @FindBy(css = "#emailLogin")
     private WebElement enterEmailIdForLogIn;
 
-    @FindBy(css = ".form-control-placeholder signin-placeholder")
+    @FindBy(css = "#inputPassword")
     private WebElement enterPasswordForLogIn;
 
-    @FindBy(css = ".btn sign-in-submit-btn red-btn")
+    @FindBy(css = "button[class = 'btn sign-in-submit-btn red-btn']")
     private WebElement loginSignInBtn;
 
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends CommonAPI {
 
-    @FindBy(css = ".login-state ml-1")
+    @FindBy(css = "span[class = 'login-state ml-1']")
     private WebElement signInBtn;
 
     @FindBy(css = "#searchTerm")

@@ -10,16 +10,13 @@ public class LoginTest extends CommonAPI {
 
         @Test
         public void validLoginCred() {
-            pages.bjs.HomePage homePage = new HomePage(getDriver());
-            pages.bjs.LogInPage loginPage = new LogInPage(getDriver());
+            HomePage homePage = new HomePage(getDriver());
+            LogInPage loginPage = new LogInPage(getDriver());
             homePage.clickSignInBtn();
             loginPage.typeEmailForLogin("kttheman1@aol.com");
             loginPage.typePasswordForLogin("Tomsun@32!");
             loginPage.clickLoginSignInBtn();
-
         }
-
-
     }
 
 

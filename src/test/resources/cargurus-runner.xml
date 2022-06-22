@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="carsaver smoke">
-    <parameter name="url" value="https://www.cargurus.com">
+    <parameter name="url" value="https://www.cargurus.com"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="windows"></parameter>
-    </parameter>
+
 <!--    <test name="carsaver main functionalities">-->
 <!--        <classes>-->
 <!--            <class name="apps.cargurus.Login"></class>-->
