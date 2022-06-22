@@ -1,29 +1,39 @@
 package apps.cargurus;
 
 import base.CommonAPI;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.cargurus.HomePage;
 import pages.cargurus.LogInPage;
 import utility.Utility;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
 public class Login extends CommonAPI {
 
+    private final Logger LOG = LoggerFactory.getLogger(Login.class);
+
     Properties prop = Utility.loadProperties();
-    String duration = prop.getProperty("implicit.wait");
 
     @Test
     public void loginValidCred() {
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();
+        LOG.info("sign in button clicked successfully");
         login.enterEmail("Ravenn587@aol.com");
+        LOG.info("email entered successfully");
         login.enterEmailNextBtn();
+        LOG.info("next button clicked successfully");
         String passwordDecode = Utility.decode("QWJjZDEyMzQqPw==");
         login.enterPassword(passwordDecode);
+        LOG.info("password entered successfully");
         login.enterPasswordSignInBtn();
+        LOG.info("sign in button clicked successfully");
         String actual = homePage.getAccountUserName();
         Assert.assertEquals("RavenN1", actual);
     }

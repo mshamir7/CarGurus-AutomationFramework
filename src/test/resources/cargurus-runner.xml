@@ -19,29 +19,29 @@
             </classes>
         </test>
 
-        <test name="Regression suite">
-            <classes>
-                <class name="apps.cargurus.AddCarReview"></class>
-                <class name="apps.cargurus.GeneralQuestion"></class>
-                <class name="apps.cargurus.PopularSearchListings"></class>
-                <class name="apps.cargurus.PriceTrends"></class>
-                <class name="apps.cargurus.TestDriveReviews"></class>
+<!--        <test name="Regression suite">-->
+<!--            <classes>-->
+<!--                <class name="apps.cargurus.AddCarReview"></class>-->
+<!--                <class name="apps.cargurus.GeneralQuestion"></class>-->
+<!--                <class name="apps.cargurus.PopularSearchListings"></class>-->
+<!--                <class name="apps.cargurus.PriceTrends"></class>-->
+<!--                <class name="apps.cargurus.TestDriveReviews"></class>-->
 
-                <class name="apps.cargurus.GeneralQuestion"></class>
-                <class name="apps.cargurus.InstantMarketValue"></class>
-                <class name="apps.cargurus.PreQualify"></class>
-                <class name="apps.cargurus.RecommendedCarsBasedOnSearchHistory"></class>
-                <class name="apps.cargurus.ShoppingForAUsedCar"></class>
-                <class name="apps.cargurus.BuyMenuLinks"></class>
-                <class name="apps.cargurus.SellMenuLinks"></class>
-            </classes>
-        </test>
+<!--                <class name="apps.cargurus.GeneralQuestion"></class>-->
+<!--                <class name="apps.cargurus.InstantMarketValue"></class>-->
+<!--                <class name="apps.cargurus.PreQualify"></class>-->
+<!--                <class name="apps.cargurus.RecommendedCarsBasedOnSearchHistory"></class>-->
+<!--                <class name="apps.cargurus.ShoppingForAUsedCar"></class>-->
+<!--                <class name="apps.cargurus.BuyMenuLinks"></class>-->
+<!--                <class name="apps.cargurus.SellMenuLinks"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
 
-<!--    <test name="Regression suite1">-->
-<!--        <classes>-->
-<!--            <class name="apps.cargurus.BuyMenuLinks"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Regression suite1">
+        <classes>
+            <class name="apps.cargurus.Login"></class>
+        </classes>
+    </test>
 
 
 </suite>
