@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 public class FilterSearchResultsUsedCars extends CommonAPI {
 
-   // @Test
+    @Test
     public void searchUsedCars() {
         HomePage homePage = new HomePage(getDriver());
         ShoppingForAUsedCarPage shoppingForAUsedCarPage = new ShoppingForAUsedCarPage(getDriver());
@@ -35,7 +35,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
     //Update Zipcode From SEARCH RESULTS PAGE TC022
 
-  //  @Test
+    @Test
     public void updateZipCodeFromSearchResultsPage() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -58,7 +58,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
     //ERROR MESSAGE DISPLAYED USING INVALID ZIPCODE TC023
 
-   // @Test
+    @Test
     public void invalidZipCodeErrorMessage() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -80,7 +80,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
     //FILTER SEARCH BY BODY STYLE FROM SEARCH RESULTS PAGE TC024
 
-  //  @Test
+    @Test
     public void filterByBodyStyleSearchResultsPage() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -105,7 +105,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
     //FILTER SEARCH BY PRICE FROM SEARCH RESULTS PAGE TC025
 
-  //  @Test
+    @Test
     public void filterByPriceSearchResultsPage() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -132,7 +132,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
 
     //NAVIGATE TO REQUEST INFO DIALOG BOX TC026
-    //@Test
+    @Test
     public void requestInfoDialogueBox() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());

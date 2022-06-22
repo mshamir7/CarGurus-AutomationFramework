@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221539PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221542PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221543PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221552PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221555PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221604PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221605PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221618PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221625PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221630PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221633PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Search.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/ShoppingForAUsedCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/ShoppingForAUsedCarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
