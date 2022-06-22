@@ -2,6 +2,7 @@ package apps.cargurus;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.cargurus.HomePage;
@@ -43,11 +44,9 @@ public class SearchNewCars extends CommonAPI {
         homePage.selectNewCarByPriceDropDownListMin("$30,000");
         homePage.selectNewCarByPriceDropDownListMax("$50,000");
         homePage.typeNewCarByPriceZipCode("11375");
-        String expectedMinPrice = "30000";
-        String actualMinPrice = getDriver().findElement(By.id("minPrice")).getText();
-        String expectedMaxPrice = "50000";
-        String actualMaxPrice = getDriver().findElement(By.id("maxPrice")).getText();
-        Assert.assertEquals(expectedMinPrice, actualMinPrice);
-        Assert.assertEquals(expectedMaxPrice, actualMaxPrice);
+        WebElement elementMinPrice = getDriver().findElement(By.cssSelector("input[value = '30000']"));
+        Assert.assertTrue(elementMinPrice.isDisplayed());
+        WebElement elementMaxPrice = getDriver().findElement(By.cssSelector("input[value = '50000']"));
+        Assert.assertTrue(elementMaxPrice.isDisplayed());
     }
 }

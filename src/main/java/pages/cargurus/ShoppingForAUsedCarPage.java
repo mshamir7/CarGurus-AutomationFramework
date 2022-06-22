@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class ShoppingForAUsedCarPage extends CommonAPI {
 
 
-    @FindBy(xpath = "//a[contains(text(),'Cheap Manual Cars for Sale')]")
+    @FindBy(xpath = "//*[@id='seo_section_0']/div/ul/li[9]/span[1]/h5/a]")
     private WebElement cheapManualCarsForSaleLink;
 
     @FindBy(xpath = "//*[@id='faq_9_heading']/a/span")

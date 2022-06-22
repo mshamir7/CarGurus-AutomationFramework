@@ -6,24 +6,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ResearchNewAndUsedCarsPage extends CommonAPI {
+public class CarReviewsAndAdvicePage extends CommonAPI {
 
 
-    @FindBy(css = "#researchTabCarSelector_entitySelectingHelper_selectedEntity_makerSelect")
+    @FindBy(css = "select[class ='k2Xd15 TXStEI']")
     private WebElement chooseACarMakeDropDownList;
 
-    @FindBy(css = "#researchTabCarSelector_entitySelectingHelper_selectedEntity_modelSelect")
+    @FindBy(xpath = "//*[@id='root']/div/div/section[1]/form/div[2]/div/select")
     private WebElement chooseACarModelDropDownList;
 
-    @FindBy(css = "#researchTabCarSelector_entitySelectingHelper_selectedEntity_year1Select")
+    @FindBy(xpath = "//*[@id='root']/div/div/section[1]/form/div[3]/div/select")
     private WebElement chooseACarYearDropDownList;
 
-    @FindBy(xpath = "//*[@id='researchTabCarSelector']/div/div[2]/input")
+    @FindBy(xpath = "//*[@id='root']/div/div/section[1]/form/a")
     private WebElement researchNewAndUsedCarSearchBtn;
 
 
 
-    public ResearchNewAndUsedCarsPage(WebDriver driver){
+    public CarReviewsAndAdvicePage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
 

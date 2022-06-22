@@ -26,8 +26,8 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(xpath = "//input[@id='zip']")
     private WebElement zipCode;
 
-    @FindBy(css = "input[class ='a6kph8']")
-    private WebElement updateZipCodeText;
+    @FindBy(xpath = "//body/main[@id='main']/div[@id='cargurus-listing-search']/div[1]/div[1]/div[1]/form[1]/input[1]")
+    private WebElement typeZipCodeText;
 
     @FindBy(css = "button[class = 'BnSO43 AQU0eZ QEqQC1']")
     private WebElement updateBtn;
@@ -50,7 +50,7 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(css = "#maxPrice")
     private WebElement maxPriceTextBox;
 
-    @FindBy(xpath = "//body/main[@id='main']/div[@id='cargurus-listing-search']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/div[3]/button[1]")
+    @FindBy(xpath = "//*[@id='react-tabs-9']/form/div[3]/button")
     private WebElement searchBtn;
 
     @FindBy(css = "button[class='HaLmAx kMGxRh SUJbPV nM1LaL']")
@@ -125,12 +125,12 @@ public class SearchResultPage extends CommonAPI {
         typeAndEnter(zipCode, text);
     }
 
-    public void typeUpdateZip(String text){
-        type(updateZipCodeText, text);
+    public void typeAndEnterUpdatedZip(String text){
+        typeAndEnter(typeZipCodeText, text);
     }
 
     public void clearUpdateZip() {
-        clear(updateZipCodeText);
+        clear(typeZipCodeText);
     }
 
     public void clickByPriceTab(){

@@ -9,10 +9,11 @@ public class Utility {
 
     public static String currentDir = System.getProperty("user.dir");
 
+
     public static Properties loadProperties(){
         Properties properties = new Properties();
         try {
-            FileInputStream fis = new FileInputStream(currentDir + "/config.properties");
+            FileInputStream fis = new FileInputStream(currentDir + "\\config.properties");
             properties.load(fis);
         }catch (IOException e) {
             e.printStackTrace();

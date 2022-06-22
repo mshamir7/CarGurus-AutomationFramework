@@ -8,10 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TestDriveReviewPage extends CommonAPI {
 
-    @FindBy(xpath = "//*[@id='contentBody']/div/div[1]/div[2]/nav/ul/li[2]/a")
+    @FindBy(xpath = "//*[@id='root']/div[2]/div/div[1]/div[4]/ul/li[2]")
     private WebElement researchNewAndUsedCarUserReviewTab;
 
-    @FindBy(xpath = "//*[@id='contentBody']/div/div[1]/div[2]/nav/ul/li[3]/a")
+    @FindBy(xpath = "//*[@id='root']/div[2]/div/div[1]/div[4]/ul/li[4]")
     private WebElement researchNewAndUsedCarTrimAndSpecsTab;
 
     @FindBy(xpath = "*[normalize-space(text()='Options')]")

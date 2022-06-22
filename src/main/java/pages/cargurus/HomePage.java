@@ -142,10 +142,10 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[text()='Sell']")
     private WebElement hoverOverSell;
 
-    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[2]/a/span")
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[2]/a/span") //body/div[1]/nav[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]
     private WebElement carValuesLink;
 
-    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[1]/a/span")
+    @FindBy(xpath = "//body/div[2]/nav[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")
     private WebElement sellMyCarLink;
 
     @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[3]/a/span")
