@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bjs/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/bjs/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/BuyMenuLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/BuyMenuLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bjs-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/costco-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Logback-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/walmart-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/walmart-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/abc/Logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/abc/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
