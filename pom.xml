@@ -106,7 +106,7 @@
         <version>2.22.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>..\src\test\resources\cargurus-runner.xml</suiteXmlFile>
+            <suiteXmlFile>..X:\QA\DataMisfitsProject\src\test\resources\cargurus-runner.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
