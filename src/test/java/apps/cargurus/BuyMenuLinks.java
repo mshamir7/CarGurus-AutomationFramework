@@ -27,7 +27,7 @@ public class BuyMenuLinks extends CommonAPI {
         Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id='callout']/div/ul/li[2]/a/div[2]/h4")).isDisplayed());
     }
 
-    //@Test
+    @Test
     public void certifiedCarsTipsAndAdvice() throws MalformedURLException {
         HomePage homePage = new HomePage(getDriver());
         homePage.hoverOverBuyMenu(getDriver());
@@ -37,7 +37,7 @@ public class BuyMenuLinks extends CommonAPI {
         Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id='root']/div/section[6]/article/a")).isDisplayed());
     }
 
-    //@Test
+    @Test
     public void buyingACarDuringCoronaVirusFAQ() throws MalformedURLException {
         HomePage homePage = new HomePage(getDriver());
         homePage.hoverOverBuyMenu(getDriver());
