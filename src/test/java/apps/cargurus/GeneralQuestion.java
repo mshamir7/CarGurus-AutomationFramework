@@ -10,7 +10,7 @@ import pages.cargurus.HomePage;
 public class GeneralQuestion extends CommonAPI {
 
     @Test
-    public void generalQuestions(){
+    public void generalQuestions() {
         HomePage homePage = new HomePage(getDriver());
         AllCarQuestionsPage allCarQuestionsPage = new AllCarQuestionsPage(getDriver());
         homePage.hoverOverResearchMenu(getDriver());

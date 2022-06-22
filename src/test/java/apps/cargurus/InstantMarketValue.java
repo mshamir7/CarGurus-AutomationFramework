@@ -11,7 +11,7 @@ import pages.cargurus.HomePage;
 public class InstantMarketValue extends CommonAPI {
 
     @Test
-    public void instantMarketValue(){
+    public void instantMarketValue() {
         HomePage homePage = new HomePage(getDriver());
         DeliveryPage deliveryPage = new DeliveryPage(getDriver());
         homePage.hoverOverBuyMenu(getDriver());

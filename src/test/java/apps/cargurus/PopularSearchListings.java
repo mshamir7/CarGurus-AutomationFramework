@@ -10,7 +10,7 @@ import pages.cargurus.ShoppingForAUsedCarPage;
 public class PopularSearchListings extends CommonAPI {
 
     @Test
-    public void usePopularSearchListings(){
+    public void usePopularSearchListings() {
         HomePage homePage = new HomePage(getDriver());
         ShoppingForAUsedCarPage shoppingForAUsedCarPage = new ShoppingForAUsedCarPage(getDriver());
         homePage.clickHeaderBuyBtn();

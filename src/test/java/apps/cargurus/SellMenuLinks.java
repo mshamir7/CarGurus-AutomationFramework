@@ -10,7 +10,7 @@ import pages.cargurus.HomePage;
 public class SellMenuLinks extends CommonAPI {
 
     @Test
-    public void sellMyCarLink(){
+    public void sellMyCarLink() {
         HomePage homePage = new HomePage(getDriver());
         homePage.hoverOverSellMenu(getDriver());
         homePage.clickSellMyCarLink();
@@ -20,7 +20,7 @@ public class SellMenuLinks extends CommonAPI {
     }
 
     @Test
-    public void sellMyCarFAQLink(){
+    public void sellMyCarFAQLink() {
         HomePage homePage = new HomePage(getDriver());
         homePage.hoverOverSellMenu(getDriver());
         homePage.clickSellMyCarFAQLink();
@@ -30,7 +30,7 @@ public class SellMenuLinks extends CommonAPI {
     }
 
     @Test
-    public void dealerSignUpLink(){
+    public void dealerSignUpLink() {
         HomePage homePage = new HomePage(getDriver());
         homePage.hoverOverSellMenu(getDriver());
         homePage.clickDealerSignUpLink();

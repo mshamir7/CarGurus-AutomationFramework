@@ -9,7 +9,7 @@ import pages.cargurus.WhatsMyCarWorthPage;
 public class CarValues extends CommonAPI {
 
     @Test
-    public void sellMenuCarValues(){
+    public void sellMenuCarValues() {
         HomePage homePage = new HomePage(getDriver());
         WhatsMyCarWorthPage whatsMyCarWorthPage = new WhatsMyCarWorthPage(getDriver());
         homePage.hoverOverSellMenu(getDriver());

@@ -11,7 +11,7 @@ import pages.cargurus.WriteACarReviewPage;
 public class AddCarReview extends CommonAPI {
 
     @Test
-    public void addCarReview(){
+    public void addCarReview() {
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         WriteACarReviewPage writeACarReviewPage = new WriteACarReviewPage(getDriver());

@@ -9,7 +9,7 @@ import pages.cargurus.SearchResultPage;
 public class CertifiedPreOwnedCar extends CommonAPI {
 
     @Test
-    public void searchCertifiedPreOwnedCars(){
+    public void searchCertifiedPreOwnedCars() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
         homePage.clickCertifiedPreownedCarTab();

@@ -10,7 +10,7 @@ import pages.cargurus.SearchForDealersPage;
 public class DealerShipsNearMe extends CommonAPI {
 
     @Test
-    public void findDealerShipNearMe(){
+    public void findDealerShipNearMe() {
         HomePage homePage = new HomePage(getDriver());
         SearchForDealersPage searchForDealersPage = new SearchForDealersPage(getDriver());
         homePage.hoverOverBuyMenu(getDriver());

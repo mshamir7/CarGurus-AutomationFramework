@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream;
 
 public class ExcelReader {
 
@@ -47,7 +48,7 @@ public class ExcelReader {
             excelWBook = new XSSFWorkbook(excelFile);
             excelWSheet = excelWBook.getSheet(sheet);
             for (int i = rowStart; i <= excelWSheet.getLastRowNum(); i++){
-                columnData.add(excelWSheet.getRow(i).getCell(colNum).getStringCellValue());
+                columnData.add(String.valueOf(excelWSheet.getRow(i).getCell(colNum).getNumericCellValue()));
             }
 //            int i = rowStart;
 //            while (excelWSheet.getRow(i).getCell(colNum).getStringCellValue() != null){
@@ -91,11 +92,11 @@ public class ExcelReader {
         return value;
     }
 
-//    public static void main(String[] args)  {
-//        String path = "C:\\Users\\PIIT_NYA\\eclipse-workspace\\April22-SeleniumProject\\data\\TestData.xlsx";
-//        ExcelReader excelReader = new ExcelReader(path);
-//        List<String> items = excelReader.getEntireColumnForGivenHeader("Sheet1", "id");
-//        //String items = excelReader.getValueForGivenHeaderAndKey("Sheet1", "id", "id004");
-//        System.out.println(items);
-//    }
+    public static void main(String[] args)  {
+        String path = "X:\\QA\\DataMisfitsProject\\Search.xlsx";
+        ExcelReader excelReader = new ExcelReader(path);
+        List<String> items = excelReader.getEntireColumnForGivenHeader("Sheet1", "Zipcodes");
+       // String items = excelReader.getValueForGivenHeaderAndKey("Sheet1", "id", "id004");
+        System.out.println(items);
+    }
 }

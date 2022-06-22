@@ -58,11 +58,6 @@
       <artifactId>commons-lang3</artifactId>
       <version>3.7</version>
     </dependency>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.0.0</version>
-    </dependency>
 
     <dependency>
       <groupId>org.apache.poi</groupId>
@@ -95,6 +90,11 @@
       <artifactId>logback-classic</artifactId>
       <version>1.2.11</version>
     </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.11.0</version>
+    </dependency>
 
 
   </dependencies>
@@ -106,7 +106,7 @@
         <version>2.22.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>..\April22-SeleniumProject\src\test\resources\amazon-runner.xml</suiteXmlFile>
+            <suiteXmlFile>..DataMisfitsProject\src\test\resources\cargurus-runner.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

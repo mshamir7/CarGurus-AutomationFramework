@@ -9,8 +9,8 @@ import pages.cargurus.UsedCarPriceTrendsPage;
 public class PriceTrends extends CommonAPI {
 
     @Test
-    public void priceTrends(){
-        HomePage homePage= new HomePage(getDriver());
+    public void priceTrends() {
+        HomePage homePage = new HomePage(getDriver());
         UsedCarPriceTrendsPage usedCarPriceTrendsPage = new UsedCarPriceTrendsPage(getDriver());
         homePage.hoverOverResearchMenu(getDriver());
         homePage.clickResearchMenuPriceTrendsLink();

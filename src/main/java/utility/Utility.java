@@ -26,7 +26,7 @@ public class Utility {
     }
 
 //    public static void main(String[] args) {
-//        String originalInput = "oauth-shamirmashfik7-7438b";
+//        String originalInput = "";
 //        String encodedString = Base64.getEncoder().encodeToString(originalInput.getBytes());
 //        System.out.println(encodedString);
 //

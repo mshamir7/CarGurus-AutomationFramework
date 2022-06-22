@@ -11,7 +11,7 @@ import pages.cargurus.HomePage;
 public class PreQualify extends CommonAPI {
 
     @Test
-    public void preQualify(){
+    public void preQualify() {
         HomePage homePage = new HomePage(getDriver());
         FinanceInAdvancePage financeInAdvancePage = new FinanceInAdvancePage(getDriver());
         homePage.hoverOverHeaderFinanceBtn(getDriver());
