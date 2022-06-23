@@ -17,10 +17,9 @@ public class Login extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(Login.class);
 
-    Properties prop = Utility.loadProperties();
-
     @Test
     public void loginValidCred() {
+        LOG.info("Login--------loginValidCredentials Test--------");
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();
@@ -41,6 +40,7 @@ public class Login extends CommonAPI {
     //Sign out of user profile
     @Test
     public void signOutOfUserProfile() {
+        LOG.info("Login--------signOutOfUserProfile Test--------");
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();
@@ -56,6 +56,7 @@ public class Login extends CommonAPI {
 
     @Test
     public void loginInvalidCred() {
+        LOG.info("Login--------loginInvalidCred Test--------");
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();

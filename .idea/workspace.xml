@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/driver/jars/logback-classic-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/jars/slf4j-api-1.7.36.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/jars/slf4j-jdk14-1.7.36.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/globalqatestcases.logs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/loginValidCred 062320221802PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/signOutOfUserProfile 062320221800PM.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/jars/logback-classic-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/jars/slf4j-api-1.7.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/jars/slf4j-jdk14-1.7.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/globalqatestcases.logs" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062320220023AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMyCarLink 062320220023AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/usePopularSearchListings 062320220022AM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

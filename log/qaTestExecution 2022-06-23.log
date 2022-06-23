@@ -1,0 +1,13 @@
+18:06:25.951 [main] INFO  apps.cargurus.Login - Login--------loginInvalidCred Test--------
+18:06:26.044 [main] INFO  pages.cargurus.HomePage - Clicked Sign In Button
+18:06:32.201 [main] INFO  apps.cargurus.Login - Login--------loginValidCredentials Test--------
+18:06:32.290 [main] INFO  pages.cargurus.HomePage - Clicked Sign In Button
+18:06:32.290 [main] INFO  apps.cargurus.Login - sign in button clicked successfully
+18:06:33.453 [main] INFO  apps.cargurus.Login - email entered successfully
+18:06:33.507 [main] INFO  apps.cargurus.Login - next button clicked successfully
+18:06:33.697 [main] INFO  apps.cargurus.Login - password entered successfully
+18:06:33.737 [main] INFO  apps.cargurus.Login - sign in button clicked successfully
+18:06:33.737 [main] INFO  pages.cargurus.HomePage - Get Account username success
+18:06:39.233 [main] INFO  apps.cargurus.Login - Login--------signOutOfUserProfile Test--------
+18:06:39.326 [main] INFO  pages.cargurus.HomePage - Clicked Sign In Button
+18:06:42.302 [main] INFO  pages.cargurus.HomePage - Clicked Profile DropDown
