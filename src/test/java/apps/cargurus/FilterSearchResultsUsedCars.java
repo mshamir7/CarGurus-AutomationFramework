@@ -1,6 +1,5 @@
 package apps.cargurus;
 
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -8,6 +7,7 @@ import org.testng.annotations.Test;
 import pages.cargurus.HomePage;
 import pages.cargurus.SearchResultPage;
 import pages.cargurus.ShoppingForAUsedCarPage;
+import utility.ConnectDB;
 import utility.ExcelReader;
 import utility.Utility;
 
@@ -78,7 +78,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
     //FILTER SEARCH BY BODY STYLE FROM SEARCH RESULTS PAGE TC024
 
-      @Test
+     @Test
     public void filterByBodyStyleSearchResultsPage() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -103,7 +103,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
 
     //FILTER SEARCH BY PRICE FROM SEARCH RESULTS PAGE TC025
 
-    @Test
+     @Test
     public void filterByPriceSearchResultsPage() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
@@ -152,7 +152,7 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
     }
 
     @Test
-    public void searchMultipleItems() {
+    public void searchMultipleItemsUsingExcelSpreadSheet() {
         HomePage homePage = new HomePage(getDriver());
         SearchResultPage searchResultPage = new SearchResultPage(getDriver());
         ShoppingForAUsedCarPage shoppingForAUsedCarPage = new ShoppingForAUsedCarPage(getDriver());
@@ -171,10 +171,39 @@ public class FilterSearchResultsUsedCars extends CommonAPI {
         for (String item : items) {
             waitFor(2);
             searchResultPage.typeAndEnterUpdatedZip(item);
-            //  searchResultPage.clickUpdateZip();
+            waitFor(3);
             searchResultPage.clearUpdateZip();
+            waitFor(2);
         }
         Assert.assertEquals("Used Acura ILX for Sale in Jackson Heights, NY - CarGurus", getDriver().getTitle());
+    }
+
+    @Test
+    public void searchMultipleItemsUsingMySQLDB() {
+        HomePage homePage = new HomePage(getDriver());
+        SearchResultPage searchResultPage = new SearchResultPage(getDriver());
+        ShoppingForAUsedCarPage shoppingForAUsedCarPage = new ShoppingForAUsedCarPage(getDriver());
+        homePage.clickHeaderBuyBtn();
+        shoppingForAUsedCarPage.selectAllMakesDropDownList("Acura");
+        shoppingForAUsedCarPage.selectAllModelsDropDownList("ILX");
+        shoppingForAUsedCarPage.typeMinPriceTextBox("20000");
+        shoppingForAUsedCarPage.typeMaxPriceTextBox("35000");
+        shoppingForAUsedCarPage.typeZipCode("11375");
+        shoppingForAUsedCarPage.selectRadius("50 mi");
+        shoppingForAUsedCarPage.clickSearchBtn();
+        searchResultPage.clearUpdateZip();
+
+        ConnectDB cdb = new ConnectDB();
+        cdb.connectToMySql();
+        List<String> zipcodes = cdb.directDatabaseQueryExecute("Select * from locations", "zipcodes");
+        for (String zipcode : zipcodes) {
+            waitFor(2);
+            searchResultPage.typeAndEnterUpdatedZip(zipcode);
+            waitFor(2);
+            searchResultPage.clearUpdateZip();
+            waitFor(1);
+        }
+        Assert.assertEquals("Used Acura ILX for Sale in Jamaica, NY - CarGurus", getDriver().getTitle());
     }
 }
 

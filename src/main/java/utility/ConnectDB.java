@@ -99,8 +99,10 @@ public class ConnectDB {
         return data;
     }
 
-//    public static void main(String[] args) {
-//        ConnectDB cdb = new ConnectDB();
-//        cdb.connectToMySql();
-//    }
+    public static void main(String[] args) {
+        ConnectDB cdb = new ConnectDB();
+        cdb.connectToMySql();
+        String zipcodes = String.valueOf(cdb.directDatabaseQueryExecute("Select * from locations", "zipcodes"));
+        System.out.println(zipcodes);
+    }
 }

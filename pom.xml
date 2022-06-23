@@ -59,6 +59,15 @@
       <version>3.7</version>
     </dependency>
 
+
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.29</version>
+    </dependency>
+
+
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
@@ -96,12 +105,6 @@
       <version>2.11.0</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-dependency-plugin</artifactId>
-      <version>3.3.0</version>
-    </dependency>
 
 
   </dependencies>
@@ -119,5 +122,8 @@
       </plugin>
     </plugins>
   </build>
+<!-- Run from CMD before Jenkins Build:-->
+<!--  mvn install -DskipTests-->
+<!--  mvn -o test-->
 
 </project>
