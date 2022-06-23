@@ -26,10 +26,10 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(xpath = "//*[@id='zip']")
     private WebElement zipCode;
 
-    @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[1]/form/input")
+    @FindBy(css = "input[id = 'zip']")
     private WebElement typeZipCodeText;
 
-    @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[1]/form/input")
+    @FindBy(css = "input[id = 'zip']")
     private WebElement clearZipCodeText;
 
     @FindBy(css = "button[class = 'BnSO43 AQU0eZ QEqQC1']")

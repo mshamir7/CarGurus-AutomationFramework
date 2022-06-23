@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062320220023AM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/sellMyCarLink 062320220023AM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/usePopularSearchListings 062320220022AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/jars/logback-classic-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/jars/slf4j-api-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/jars/slf4j-jdk14-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/globalqatestcases.logs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062320220023AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/sellMyCarLink 062320220023AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/usePopularSearchListings 062320220022AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +58,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/QA/DataMisfitsProjectPush/DataMisfitsProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "X:/QA/PnTFinalProject-DataMisfits-/driver/jars/slf4j-jdk14-1.7.36.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\QA\PnTFinalProject-DataMisfits-\driver\jars" />
       <recent name="X:\QA\DataMisfitsProject" />
       <recent name="X:\QA\DataMisfitsProject1" />
       <recent name="X:\QA\DataMisfitsProject1\src\main\java" />
       <recent name="X:\QA\DataMisfitsProject1\src\test\resources" />
-      <recent name="X:\QA\DataMisfitsProject1\src\test\java\apps\automationpractice\cargurus" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\QA\DataMisfitsProject\src\test\resources" />
@@ -146,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.X:/QA/DataMisfits/DataMisfitsProject1/src/test/resources/cargurus-runner.xml" />
-        <item itemvalue="Application.FilterSearchResultsUsedCars" />
         <item itemvalue="Application.ConnectDB" />
-        <item itemvalue="Application.Utility" />
         <item itemvalue="Application.ExcelReader" />
+        <item itemvalue="Application.FilterSearchResultsUsedCars" />
+        <item itemvalue="Application.Utility" />
       </list>
     </recent_temporary>
   </component>
