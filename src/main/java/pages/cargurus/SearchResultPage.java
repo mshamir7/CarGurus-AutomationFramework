@@ -23,7 +23,7 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[2]/div[2]/div[1]/div/div")
     private WebElement searchResultHeaderTextNewCarTitle;
 
-    @FindBy(xpath = "//input[@id='zip']")
+    @FindBy(xpath = "//*[@id='zip']")
     private WebElement zipCode;
 
     @FindBy(xpath = "//*[@id='cargurus-listing-search']/div/div/div[1]/form/input")
@@ -53,7 +53,7 @@ public class SearchResultPage extends CommonAPI {
     @FindBy(css = "#maxPrice")
     private WebElement maxPriceTextBox;
 
-    @FindBy(xpath = "//*[@id='react-tabs-9']/form/div[3]/button")
+    @FindBy(xpath = "//*[@id='react-tabs-5']/form/button")
     private WebElement searchBtn;
 
     @FindBy(css = "button[class='HaLmAx kMGxRh SUJbPV nM1LaL']")
@@ -156,11 +156,11 @@ public class SearchResultPage extends CommonAPI {
         type(maxPriceTextBox, text);
     }
 
-    public void typeZipCode(String text){
-        type(zipCode, text);
+    public void typeAndEnterZipCode(String text){
+        typeAndEnter(zipCode, text);
     }
 
-    public void clickSearchBtn(){
+    public void clickSearchButton(){
         click(searchBtn);
     }
 

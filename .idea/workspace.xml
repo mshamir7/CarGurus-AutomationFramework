@@ -7,57 +7,8 @@
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Search.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byMakeModelNew 062220221911PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceNew 062220221716PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/byPriceUsed 062220221902PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062220221719PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062220221805PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dealerSignUpLink 062220221820PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/familyFriendlyTrendingSearch 062220221831PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/filterByPriceSearchResultsPage 062220221817PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/modelsYouMayLike 062220221832PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recentActivity 062220221832PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recentPriceDrops 062220221832PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/recommendedForYou 062220221832PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchCertifiedPreOwnedCars 062220221911PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221743PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221744PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221748PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/searchMultipleItems 062220221817PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMenuCarValues 062220221802PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMyCarLink 062220221720PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMyCarLink 062220221805PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sellMyCarLink 062220221821PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221717PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221803PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221819PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221835PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221846PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsOverView 062220221848PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221718PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221803PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221819PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221836PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221847PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221849PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221852PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221854PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221858PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsTrimAndSpecs 062220221859PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221718PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221804PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221819PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221836PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221847PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221849PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221852PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testDriveReviewsUserReview 062220221854PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/usePopularSearchListings 062220221818PM.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/ShoppingForAUsedCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/ShoppingForAUsedCarPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/FilterSearchResultsUsedCars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
@@ -98,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "X:/QA/DataMisfitsProjectPush/DataMisfitsProject",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/QA/DataMisfitsProjectPush/DataMisfitsProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="X:\QA\DataMisfitsProject" />
