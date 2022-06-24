@@ -119,3 +119,30 @@ searchMakeModel Test
 19:43:32.730 [main] INFO  apps.carguru.SearchNewCarBy - search button clicked
 19:43:41.305 [main] INFO  pages.cargurus.HomePage - hovered over research menu
 19:43:43.369 [main] INFO  pages.cargurus.HomePage - Research Menu Price Trends Link clicked
+19:51:23.241 [main] INFO  apps.cargurus.CertifiedPreOwnedCar - CertifiedPreOwnedCar:
+searchCertifiedPreOwnedCars Test
+19:51:23.327 [main] INFO  pages.cargurus.HomePage - certified preowned car tab clicked
+19:51:23.418 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Makes DropDown List option selected
+19:51:23.497 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Models DropDown List option selected
+19:51:23.570 [main] INFO  pages.cargurus.HomePage - type Certified Preowned Car ZipCode
+19:51:25.477 [main] INFO  base.CommonAPI - Screenshot captured
+19:52:57.285 [main] INFO  apps.cargurus.CertifiedPreOwnedCar - CertifiedPreOwnedCar:
+searchCertifiedPreOwnedCars Test
+19:52:57.379 [main] INFO  pages.cargurus.HomePage - certified preowned car tab clicked
+19:52:57.476 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Makes DropDown List option selected
+19:52:57.561 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Models DropDown List option selected
+19:52:57.634 [main] INFO  pages.cargurus.HomePage - type Certified Preowned Car ZipCode
+19:52:59.508 [main] INFO  base.CommonAPI - Screenshot captured
+19:53:25.694 [main] INFO  apps.cargurus.CertifiedPreOwnedCar - CertifiedPreOwnedCar:
+searchCertifiedPreOwnedCars Test
+19:53:25.790 [main] INFO  pages.cargurus.HomePage - certified preowned car tab clicked
+19:53:25.889 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Makes DropDown List option selected
+19:53:25.972 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Models DropDown List option selected
+19:53:26.043 [main] INFO  pages.cargurus.HomePage - type Certified Preowned Car ZipCode
+19:53:27.908 [main] INFO  base.CommonAPI - Screenshot captured
+19:53:56.238 [main] INFO  apps.cargurus.CertifiedPreOwnedCar - CertifiedPreOwnedCar:
+searchCertifiedPreOwnedCars Test
+19:53:56.325 [main] INFO  pages.cargurus.HomePage - certified preowned car tab clicked
+19:53:56.426 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Makes DropDown List option selected
+19:53:56.512 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Models DropDown List option selected
+19:53:58.209 [main] INFO  pages.cargurus.HomePage - type Certified Preowned Car ZipCode
