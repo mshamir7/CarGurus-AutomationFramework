@@ -19,20 +19,16 @@ public class Login extends CommonAPI {
 
     @Test
     public void loginValidCred() {
-        LOG.info("Login--------loginValidCredentials Test--------");
+
+        LOG.info("Login:" + "\n"+"loginValidCred Test");
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();
-        LOG.info("sign in button clicked successfully");
         login.enterEmail("Ravenn587@aol.com");
-        LOG.info("email entered successfully");
         login.enterEmailNextBtn();
-        LOG.info("next button clicked successfully");
         String passwordDecode = Utility.decode("QWJjZDEyMzQqPw==");
         login.enterPassword(passwordDecode);
-        LOG.info("password entered successfully");
         login.enterPasswordSignInBtn();
-        LOG.info("sign in button clicked successfully");
         String actual = homePage.getAccountUserName();
         Assert.assertEquals("RavenN1", actual);
     }
@@ -40,7 +36,7 @@ public class Login extends CommonAPI {
     //Sign out of user profile
     @Test
     public void signOutOfUserProfile() {
-        LOG.info("Login--------signOutOfUserProfile Test--------");
+        LOG.info("Login:" + "\n"+"signOutOfUserProfile Test");
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();
@@ -56,7 +52,7 @@ public class Login extends CommonAPI {
 
     @Test
     public void loginInvalidCred() {
-        LOG.info("Login--------loginInvalidCred Test--------");
+        LOG.info("Login:" + "\n"+"loginInValidCred Test");
         HomePage homePage = new HomePage(getDriver());
         LogInPage login = new LogInPage(getDriver());
         homePage.clickSignInBtn();

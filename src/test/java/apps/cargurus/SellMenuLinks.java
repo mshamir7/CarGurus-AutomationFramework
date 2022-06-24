@@ -34,6 +34,6 @@ public class SellMenuLinks extends CommonAPI {
         HomePage homePage = new HomePage(getDriver());
         homePage.hoverOverSellMenu(getDriver());
         homePage.clickDealerSignUpLink();
-        Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id='contentBody']/header/div[1]/div/div[2]/div/div[1]/div[1]/h3")).isDisplayed());
+        Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id='LblCompany']/span")).isDisplayed());
     }
 }

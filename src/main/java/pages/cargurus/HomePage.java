@@ -142,10 +142,10 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[text()='Sell']")
     private WebElement hoverOverSell;
 
-    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[2]/a/span") //body/div[1]/nav[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[2]/a/span")
     private WebElement carValuesLink;
 
-    @FindBy(xpath = "//body/div[2]/nav[1]/div[1]/ul[1]/li[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[1]/a/span")
     private WebElement sellMyCarLink;
 
     @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[2]/div/div/div[2]/ul/li[3]/a/span")
@@ -162,7 +162,7 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[text()='Research']")
     private WebElement hoverOverResearchMenu;
 
-    @FindBy(xpath = "//*[text()='Test Drive Reviews']")
+    @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[4]/div/div/div[4]/ul/li[1]/a/span")
     private WebElement testDriveReviewsLink;
 
     @FindBy(xpath = "//*[@id='headerNav']/div/ul[1]/li[4]/div/div/div[5]/ul/li/a/span")
@@ -232,7 +232,7 @@ public class HomePage extends CommonAPI {
 
     public void clickSignInBtn() {
         click(signInBtn);
-        LOG.info("Clicked Sign In Button");
+        LOG.info("sign in button clicked");
     }
 
     public void signOutProfileUsingDropDown() {
@@ -247,26 +247,32 @@ public class HomePage extends CommonAPI {
 
     public void clickAddCarReviewBtn(){
         click(addCarReviewBtn);
+        LOG.info("add car review button clicked");
     }
 
     public void clickRecommendedForYouListing(){
         click(recommendedForYouListing);
+        LOG.info("recommended for you listing clicked");
     }
 
     public void clickRecentActivityListing(){
         click(recentActivityListing);
+        LOG.info("recent activity listing clicked");
     }
 
     public void clickRecentPriceDropsListing(){
         click(recentPriceDropsListing);
+        LOG.info("recent price drop listing clicked");
     }
 
     public void clickModelsYouMayLike(){
         click(modelsYouMayLike);
+        LOG.info("models you may like clicked");
     }
 
     public void clickFamilyFriendlyTrendingSearch(){
         click(familyFriendlyBtn);
+        LOG.info("family friend trending search clicked");
     }
 
 
@@ -276,141 +282,175 @@ public class HomePage extends CommonAPI {
 
     public void selectUsedCarMakeDropDownList(String option) {
         selectFromDropdown(usedCarMakeDropdownListOption, option);
+        LOG.info("used car dropdown list option selected");
     }
 
     public void selectUsedCarModelDropDownList(String option) {
         selectFromDropdown(usedCarModelDropdownListOption, option);
+        LOG.info("used car model dropdown list option selected");
     }
 
     public void typeUsedCarMakeModelZipCode(String zipcode) {
         type(usedCarMakeModelZip, zipcode);
+        LOG.info("type used car make model Zipcode");
     }
 
     public void clickUsedCarMakeModelSearchBtn() {
         click(usedCarMakeModelSearchBtn);
+        LOG.info("search button clicked");
     }
 
     public void clickUsedCarByBodyStyle() {
         click(usedCarByBodyStyleTabLink);
+        LOG.info("used car by body style link clicked");
     }
 
     public void clickUsedCarByBodyStyleSedanOption() {
         click(usedCarByBodyStyleSedanOption);
+        LOG.info("By body style sedan option clicked");
     }
 
     public void clickUsedCarByBodyStyleSearchBtn() {
         click(usedCarByBodyStyleSearchButton);
+        LOG.info("search button clicked");
     }
 
     public void typeByBodyStyleZipCode(String zipcode) {
         type(usedCarByBodyStyleZipCode, zipcode);
+        LOG.info("type by body style zipcode");
     }
 
     public void clickUsedCarByPriceTabLink() {
         click(usedCarByPriceTabLink);
+        LOG.info("used car by price tab clicked");
     }
 
     public void selectUsedCarByPriceDropdownListMin(String option) {
         selectFromDropdown(usedCarByPriceDropdownListMin, option);
+        LOG.info("used car by Min price dropdown list option selected");
     }
 
     public void selectUsedCarByPriceDropdownListMax(String option) {
         selectFromDropdown(usedCarByPriceDropdownListMax, option);
+        LOG.info("used car by Max price dropdown list option selected");
     }
 
     public void typeUsedCarByPriceZipCode(String zipcode) {
         type(usedCarByPriceZip, zipcode);
+        LOG.info("type used car by price zipcode");
     }
 
     public void clickUsedCarPriceSearchButton() {
         click(usedCarByPriceSearchButton);
+        LOG.info("search button clicked");
     }
 
     //NEW CAR METHODS: ---------------------------------------------------------------------------------------------------------------------------------------
 
     public void clickNewCarTab() {
         click(newCarTab);
+        LOG.info("new car tab clicked");
     }
 
     public void selectNewCarByMakeModelMakeDropDownList(String option) {
         selectFromDropdown(newCarByMakeModelMakeDropDownList, option);
+        LOG.info("new car by make model dropdown list option selected");
     }
 
     public void selectNewCarByMakeModelModelDropDownList(String option) {
         selectFromDropdown(newCarByMakeModelModelDropDownList, option);
+        LOG.info("new car by make model drop down list option selected");
     }
 
     public void typeNewCarMakeModelZipcode(String text) {
         type(newCarMakeModelZipcode, text);
+        LOG.info("type new car make model Zipcode");
     }
 
     public void clickNewCarMakeModelSearchBtn() {
         click(newCarMakeModelSearchBtn);
+        LOG.info("search button clicked");
     }
 
     public void clickNewCarByBodyStyleTabLink() {
         click(newCarByBodyStyleTabLink);
+        LOG.info("new car by body style tab clicked");
     }
 
     public void clickNewCarByBodyStylePickupTruckOption() {
         click(newCarByBodyStylePickupTruckOption);
+        LOG.info("new car by body style pickup truck option clicked");
     }
 
     public void typeNewCarByBodyStyleZipCode(String text) {
         typeAndEnter(newCarByBodyStyleZipCode, text);
+        LOG.info("new car by body style Zipcode clicked");
     }
 
     public void clickNewCarByPriceTabLink(){
         click(newCarByPriceTabLink);
+        LOG.info("new car by price tab clicked");
     }
 
     public void selectNewCarByPriceDropDownListMin(String option){
         selectFromDropdown(newCarByPriceDropDownListMin, option);
+        LOG.info("new car by Min price dropdown list option selected");
     }
 
     public void selectNewCarByPriceDropDownListMax(String option){
         selectFromDropdown(newCarByPriceDropDownListMax, option);
+        LOG.info("new car by Max price drop down list option selected");
     }
 
     public void typeNewCarByPriceZipCode(String text){
         typeAndEnter(newCarByPriceZipCode, text);
+        LOG.info("type new car by price Zipcode");
     }
 
     public void clickCertifiedPreownedCarTab(){
         click(certifiedPreownedCarTab);
+        LOG.info("certified preowned car tab clicked");
     }
 
     public void selectCertifiedPreownedCarAllMakesDropDownList(String option){
         selectFromDropdown(certifiedPreownedCarAllMakesDropDownList, option);
+        LOG.info("Certified Preowned Car All Makes DropDown List option selected");
     }
 
     public void selectCertifiedPreownedCarAllModelsDropDownList(String option){
         selectFromDropdown(certifiedPreownedCarAllModelsDropDownList, option);
+        LOG.info("Certified Preowned Car All Models DropDown List option selected");
     }
 
     public void typeCertifiedPreownedCarZipCode(String text){
         typeAndEnter(certifiedPreownedCarZipCode, text);
+        LOG.info("type Certified Preowned Car ZipCode");
     }
 
     //SELL MENU METHODS: ------------------------------------------------------------------------------------------------------------------------------------
     public void hoverOverSellMenu(WebDriver driver){
         hoverOver(driver, hoverOverSell);
+        LOG.info("hovered over sell menu");
     }
 
     public void clickCarValuesLink(){
         click(carValuesLink);
+        LOG.info("car values link clicked");
     }
 
     public void clickSellMyCarLink(){
         click(sellMyCarLink);
+        LOG.info("sell my car link clicked");
     }
 
     public void clickSellMyCarFAQLink(){
         click(sellMyCarFAQLink);
+        LOG.info("sell my car FAQ link clicked");
     }
 
     public void clickDealerSignUpLink(){
         click(dealerSignUpLink);
+        LOG.info("dealer sign up link clicked");
     }
 
 
@@ -419,48 +459,59 @@ public class HomePage extends CommonAPI {
 
     public void hoverOverResearchMenu(WebDriver driver){
         hoverOver(driver, hoverOverResearchMenu);
+        LOG.info("hovered over research menu");
     }
 
     public void clickTestDriveReviewsLink() {
         click(testDriveReviewsLink);
+        LOG.info("test drive reviews link clicked");
     }
 
     public void clickResearchMenuGeneralQuestionLink(){
         click(generalQuestionsLink);
+        LOG.info("Research Menu General Question Link clicked");
     }
 
     public void clickResearchMenuPriceTrendsLink(){
         click(researchMenuPriceTrendsLink);
+        LOG.info("Research Menu Price Trends Link clicked");
     }
 
     //BUY MENU METHODS: ----------------------------------------------------------------------------------------------------------------------------------
 
     public void hoverOverBuyMenu(WebDriver driver){
         hoverOver(driver, hoverOverBuyMenu);
+        LOG.info("hovered over buy menu");
     }
 
     public void clickBuyMenuDealershipNearMeLink(){
         click(buyMenuDealershipNearMeLink);
+        LOG.info("Buy Menu Dealership Near Me Link clicked");
     }
 
     public void clickHeaderBuyBtn(){
         click(clickHeaderBuyBtn);
+        LOG.info("header buy button clicked");
     }
 
     public void clickDeliveryLink(){
         click(deliveryLink);
+        LOG.info("Deliver Link clicked");
     }
 
     public void clickNewCarLink(){
         click(newCarLink);
+        LOG.info("new car link clicked");
     }
 
     public void clickCertifiedCarLink(){
         click(certifiedCarLink);
+        LOG.info("certified car link clicked");
     }
 
     public void clickBuyingACarDuringCoronaVirusFAQLink(){
         click(buyingACarDuringCoronaVirusFAQLink);
+        LOG.info("Buying A Car During Corona Virus FAQ Link clicked");
     }
 
 
@@ -469,18 +520,22 @@ public class HomePage extends CommonAPI {
 
     public void hoverOverHeaderFinanceBtn(WebDriver driver){
         hoverOver(driver, clickHeaderFinanceBtn);
+        LOG.info("hovered over header finance button");
     }
 
     public void clickPreQualifyForFinancingLink(){
         click(preQualifyForFinancingLink);
+        LOG.info("Pre Qualify For Financing Link clicked");
     }
 
     public void clickFinanceFAQLink(){
         click(financeFAQLink);
+        LOG.info("finance FAQ link clicked");
     }
 
     public void clickLoanCalculatorLink(){
         click(loanCalculatorLink);
+        LOG.info("loan calculator link clicked");
     }
 
 
@@ -489,10 +544,10 @@ public class HomePage extends CommonAPI {
 
     public void clickProfileMenuDropDown() {
         click(profileMenuDropDown);
+        LOG.info("profile menu dropdown clicked");
     }
     public void clickRecommendedCarsProfileDropDownOption() {
         click(recommendedCarsProfileDropDownOption);
+        LOG.info("Recommended Car sProfile DropDown Option clicked");
     }
-
-
 }

@@ -297,5 +297,4 @@ public class CommonAPI {
             LOG.info("Exception while taking screenshot "+e.getMessage());
         }
     }
-
 }

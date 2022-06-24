@@ -1,0 +1,26 @@
+19:20:44.943 [main] INFO  apps.carguru.SearchNewCarBy - SearchNewCarBy:
+searchBodyStyle Test
+19:20:45.145 [main] INFO  apps.carguru.SearchNewCarBy - body style tab clicked
+19:20:46.199 [main] INFO  apps.carguru.SearchNewCarBy - make dropdown list option selected
+19:22:09.628 [main] INFO  apps.carguru.SearchNewCarBy - SearchNewCarBy:
+searchBodyStyle Test
+19:22:09.774 [main] INFO  apps.carguru.SearchNewCarBy - body style tab clicked
+19:22:10.817 [main] INFO  apps.carguru.SearchNewCarBy - SUVs/Crossovers link clicked
+19:22:11.388 [main] INFO  apps.carguru.SearchNewCarBy - search button clicked
+19:22:20.392 [main] INFO  apps.carguru.SearchNewCarBy - SearchNewCarBy:
+searchMakeModel Test
+19:22:20.655 [main] INFO  apps.carguru.SearchNewCarBy - make dropdown list option selected
+19:22:21.719 [main] INFO  apps.carguru.SearchNewCarBy - model dropdown list option selected
+19:22:22.354 [main] INFO  apps.carguru.SearchNewCarBy - search button clicked
+19:27:31.500 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchBodyStyle Test
+19:27:31.615 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:27:31.694 [main] INFO  apps.carguru.SearchUsedCarBy - by body style tab clicked
+19:27:32.747 [main] INFO  apps.carguru.SearchUsedCarBy - pickup truck link clicked
+19:27:34.318 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:27:39.279 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchMakeModel Test
+19:27:39.414 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:27:39.486 [main] INFO  apps.carguru.SearchUsedCarBy - make drop down menu option selected
+19:27:41.555 [main] INFO  apps.carguru.SearchUsedCarBy - model drop down menu option selected
+19:27:42.089 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
