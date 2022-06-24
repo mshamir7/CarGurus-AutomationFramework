@@ -24,3 +24,98 @@ searchMakeModel Test
 19:27:39.486 [main] INFO  apps.carguru.SearchUsedCarBy - make drop down menu option selected
 19:27:41.555 [main] INFO  apps.carguru.SearchUsedCarBy - model drop down menu option selected
 19:27:42.089 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:37:26.319 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchBodyStyle Test
+19:37:26.440 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:37:26.532 [main] INFO  apps.carguru.SearchUsedCarBy - by body style tab clicked
+19:37:27.590 [main] INFO  apps.carguru.SearchUsedCarBy - pickup truck link clicked
+19:37:29.047 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:37:33.821 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchMakeModel Test
+19:37:33.954 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:37:34.023 [main] INFO  apps.carguru.SearchUsedCarBy - make drop down menu option selected
+19:37:36.076 [main] INFO  apps.carguru.SearchUsedCarBy - model drop down menu option selected
+19:37:36.510 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:40:35.303 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchBodyStyle Test
+19:40:35.455 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:40:35.525 [main] INFO  apps.carguru.SearchUsedCarBy - by body style tab clicked
+19:40:36.582 [main] INFO  apps.carguru.SearchUsedCarBy - pickup truck link clicked
+19:40:38.154 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:40:43.619 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchMakeModel Test
+19:40:43.827 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:40:43.894 [main] INFO  apps.carguru.SearchUsedCarBy - make drop down menu option selected
+19:40:45.967 [main] INFO  apps.carguru.SearchUsedCarBy - model drop down menu option selected
+19:40:46.397 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:42:06.425 [main] INFO  apps.cargurus.Login - Login:
+loginInValidCred Test
+19:42:06.503 [main] INFO  pages.cargurus.HomePage - sign in button clicked
+19:42:07.670 [main] INFO  pages.cargurus.LogInPage - email entered
+19:42:07.725 [main] INFO  pages.cargurus.LogInPage - next button clicked
+19:42:07.911 [main] INFO  pages.cargurus.LogInPage - password entered
+19:42:07.946 [main] INFO  pages.cargurus.LogInPage - sign in button clicked
+19:42:07.946 [main] INFO  pages.cargurus.LogInPage - get invalid password error text
+19:42:12.426 [main] INFO  apps.cargurus.Login - Login:
+loginValidCred Test
+19:42:12.502 [main] INFO  pages.cargurus.HomePage - sign in button clicked
+19:42:13.377 [main] INFO  pages.cargurus.LogInPage - email entered
+19:42:13.432 [main] INFO  pages.cargurus.LogInPage - next button clicked
+19:42:13.635 [main] INFO  pages.cargurus.LogInPage - password entered
+19:42:13.672 [main] INFO  pages.cargurus.LogInPage - sign in button clicked
+19:42:13.672 [main] INFO  pages.cargurus.HomePage - Get Account username success
+19:42:18.690 [main] INFO  apps.cargurus.Login - Login:
+signOutOfUserProfile Test
+19:42:18.761 [main] INFO  pages.cargurus.HomePage - sign in button clicked
+19:42:19.568 [main] INFO  pages.cargurus.LogInPage - email entered
+19:42:19.621 [main] INFO  pages.cargurus.LogInPage - next button clicked
+19:42:19.816 [main] INFO  pages.cargurus.LogInPage - password entered
+19:42:19.851 [main] INFO  pages.cargurus.LogInPage - sign in button clicked
+19:42:21.230 [main] INFO  pages.cargurus.HomePage - profile menu dropdown clicked
+19:42:21.297 [main] INFO  pages.cargurus.HomePage - Clicked Profile DropDown
+19:42:25.037 [main] INFO  pages.cargurus.HomePage - hovered over sell menu
+19:42:26.011 [main] INFO  pages.cargurus.HomePage - car values link clicked
+19:42:30.172 [main] INFO  apps.carguru.HeaderFunctionalities - HeaderFunctionalities:
+buildCar Test
+19:42:30.261 [main] INFO  apps.carguru.HeaderFunctionalities - buy dropdown menu clicked
+19:42:34.218 [main] INFO  apps.carguru.HeaderFunctionalities - build a car link clicked
+19:42:34.285 [main] INFO  apps.carguru.HeaderFunctionalities - dropdown menu option selected
+19:42:34.337 [main] INFO  apps.carguru.HeaderFunctionalities - make name clicked
+19:42:34.523 [main] INFO  apps.carguru.HeaderFunctionalities - model name clicked
+19:42:35.567 [main] INFO  apps.carguru.HeaderFunctionalities - trim clicked
+19:42:36.028 [main] INFO  apps.carguru.HeaderFunctionalities - build & price button clicked
+19:42:36.383 [main] INFO  apps.carguru.HeaderFunctionalities - next step | color clicked
+19:42:39.372 [main] INFO  apps.carguru.HeaderFunctionalities - HeaderFunctionalities:
+shopNewCar Test
+19:42:39.507 [main] INFO  apps.carguru.HeaderFunctionalities - buy dropdown menu clicked
+19:42:42.068 [main] INFO  apps.carguru.HeaderFunctionalities - shop new link clicked
+19:42:42.242 [main] INFO  apps.carguru.HeaderFunctionalities - payment clicked
+19:42:42.605 [main] INFO  apps.carguru.HeaderFunctionalities - next button clicked
+19:42:46.050 [main] INFO  apps.cargurus.CertifiedPreOwnedCar - CertifiedPreOwnedCar:
+searchCertifiedPreOwnedCars Test
+19:42:46.134 [main] INFO  pages.cargurus.HomePage - certified preowned car tab clicked
+19:42:46.216 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Makes DropDown List option selected
+19:42:46.293 [main] INFO  pages.cargurus.HomePage - Certified Preowned Car All Models DropDown List option selected
+19:42:50.013 [main] INFO  pages.cargurus.HomePage - type Certified Preowned Car ZipCode
+19:42:56.938 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchBodyStyle Test
+19:42:57.156 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:42:57.222 [main] INFO  apps.carguru.SearchUsedCarBy - by body style tab clicked
+19:42:58.268 [main] INFO  apps.carguru.SearchUsedCarBy - pickup truck link clicked
+19:42:59.792 [main] INFO  apps.carguru.SearchUsedCarBy - search button clicked
+19:43:04.366 [main] INFO  apps.carguru.SearchUsedCarBy - searchMakeModel:
+searchMakeModel Test
+19:43:04.493 [main] INFO  apps.carguru.SearchUsedCarBy - used tab clicked
+19:43:14.991 [main] INFO  base.CommonAPI - Screenshot captured
+19:43:21.793 [main] INFO  apps.carguru.SearchNewCarBy - SearchNewCarBy:
+searchBodyStyle Test
+19:43:22.100 [main] INFO  apps.carguru.SearchNewCarBy - body style tab clicked
+19:43:23.145 [main] INFO  apps.carguru.SearchNewCarBy - SUVs/Crossovers link clicked
+19:43:23.704 [main] INFO  apps.carguru.SearchNewCarBy - search button clicked
+19:43:30.889 [main] INFO  apps.carguru.SearchNewCarBy - SearchNewCarBy:
+searchMakeModel Test
+19:43:31.070 [main] INFO  apps.carguru.SearchNewCarBy - make dropdown list option selected
+19:43:32.119 [main] INFO  apps.carguru.SearchNewCarBy - model dropdown list option selected
+19:43:32.730 [main] INFO  apps.carguru.SearchNewCarBy - search button clicked
+19:43:41.305 [main] INFO  pages.cargurus.HomePage - hovered over research menu
+19:43:43.369 [main] INFO  pages.cargurus.HomePage - Research Menu Price Trends Link clicked

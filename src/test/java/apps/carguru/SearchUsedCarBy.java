@@ -18,6 +18,7 @@ public class SearchUsedCarBy extends CommonAPI {
         LOG.info("searchMakeModel:" + "\n"+"searchMakeModel Test");
         click(getDriver().findElement(By.xpath("//*[@id='__BVID__42___BV_tab_button__']")));
         LOG.info("used tab clicked");
+        waitFor(1);
         selectFromDropdown(getDriver().findElement(By.xpath("//*[@id='__BVID__51']")), "Audi");
         LOG.info("make drop down menu option selected");
         waitFor(2);

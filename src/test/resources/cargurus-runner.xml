@@ -45,11 +45,13 @@
 
     <test name="Regression suite1">
         <classes>
+            <class name="apps.cargurus.Login"></class>
+            <class name="apps.cargurus.CarValues"></class>
+            <class name="apps.carguru.HeaderFunctionalities"></class>
+            <class name="apps.cargurus.CertifiedPreOwnedCar"></class>
             <class name="apps.carguru.SearchUsedCarBy"></class>
-<!--            <class name="apps.carguru.HeaderFunctionalities"></class>-->
-<!--            <class name="apps.carguru.Login"></class>-->
-<!--            <class name="apps.carguru.SearchNewCarBy"></class>-->
-<!--            <class name="apps.carguru.SearchUsedCarBy"></class>-->
+            <class name="apps.carguru.SearchNewCarBy"></class>
+            <class name="apps.cargurus.PriceTrends"></class>
 
 
         </classes>
