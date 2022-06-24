@@ -14,6 +14,8 @@
         <classes>
 <!--            <class name="apps.carguru.FilterSearchResult"></class>-->
             <class name="apps.carguru.HeaderFunctionalities"></class>
+            <class name="apps.carguru.SearchUsedCarBy"></class>
+            <class name="apps.carguru.SearchNewCarBy"></class>
 
         </classes>
     </test>
