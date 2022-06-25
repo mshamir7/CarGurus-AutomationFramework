@@ -1,0 +1,81 @@
+00:01:54.773 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:01:54.973 [main] INFO  pages.cargurus.HomePage - hovered over sell menu
+00:01:55.371 [main] INFO  pages.cargurus.HomePage - sell my car FAQ link clicked
+00:01:57.490 [main] INFO  base.CommonAPI - Screenshot captured
+00:03:57.615 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:03:57.833 [main] INFO  pages.cargurus.HomePage - hovered over sell menu
+00:03:58.425 [main] INFO  pages.cargurus.HomePage - sell my car FAQ link clicked
+00:04:00.607 [main] INFO  base.CommonAPI - Screenshot captured
+00:05:04.918 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:05:05.101 [main] INFO  pages.cargurus.HomePage - hovered over sell menu
+00:05:07.476 [main] INFO  pages.cargurus.HomePage - sell my car FAQ link clicked
+00:05:07.965 [main] INFO  base.CommonAPI - Screenshot captured
+00:09:02.912 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:09:03.217 [main] INFO  pages.cargurus.HomePage - hovered over sell menu
+00:09:05.895 [main] INFO  pages.cargurus.HomePage - sell my car FAQ link clicked
+00:09:06.538 [main] INFO  base.CommonAPI - Screenshot captured
+00:11:28.800 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:11:30.218 [main] INFO  base.CommonAPI - Screenshot captured
+00:12:16.482 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:12:16.678 [main] INFO  pages.cargurus.HomePage - hovered over header finance button
+00:12:18.561 [main] INFO  pages.cargurus.HomePage - finance FAQ link clicked
+00:12:19.169 [main] INFO  base.CommonAPI - Screenshot captured
+00:13:26.861 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:14:15.385 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:14:26.983 [main] INFO  base.CommonAPI - Screenshot captured
+00:31:01.557 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:31:01.890 [main] INFO  pages.cargurus.HomePage - hovered over header finance button
+00:31:03.022 [main] INFO  base.CommonAPI - Screenshot captured
+00:32:15.012 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:32:15.208 [main] INFO  pages.cargurus.HomePage - hovered over header finance button
+00:32:24.200 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:32:24.955 [main] INFO  base.CommonAPI - Screenshot captured
+00:33:09.697 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:33:09.892 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:33:11.512 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:33:12.501 [main] INFO  base.CommonAPI - Screenshot captured
+00:35:11.081 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:35:11.289 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:35:14.651 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:35:15.315 [main] INFO  base.CommonAPI - Screenshot captured
+00:35:44.399 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:35:44.601 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:35:46.052 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:35:47.412 [main] INFO  base.CommonAPI - Screenshot captured
+00:37:55.746 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:37:55.933 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:37:59.530 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:38:00.193 [main] INFO  base.CommonAPI - Screenshot captured
+00:38:38.513 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:38:38.738 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:38:39.145 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:38:42.556 [main] INFO  base.CommonAPI - Screenshot captured
+00:39:05.630 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:39:05.819 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:39:16.784 [main] INFO  base.CommonAPI - Screenshot captured
+00:39:31.306 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:39:31.505 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:39:34.154 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:39:34.845 [main] INFO  base.CommonAPI - Screenshot captured
+00:40:41.416 [main] INFO  apps.cargurus.CertifiedCars - SellMyCarFAQ:
+offerProcessFAQ Test
+00:40:41.620 [main] INFO  pages.cargurus.HomePage - hovered over buy menu
+00:40:43.070 [main] INFO  pages.cargurus.HomePage - certified car link clicked
+00:40:44.390 [main] INFO  base.CommonAPI - Screenshot captured

@@ -5,6 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deeeddb1-dbed-4087-bdcd-c0816c18eb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/screenshots/filterByPriceSearchResultsPage 062420222006PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/generalQuestions 062420222007PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062420222325PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062420222326PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220009AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220011AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220012AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220014AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220031AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220032AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220033AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220035AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220037AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220038AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/offerProcessFAQ 062520220039AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/searchMultipleItemsUsingMySQLDB 062420222010PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/sellMenuCarValues 062420222007PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/CertifiedPreOwnedCarsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apps/cargurus/CertifiedCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/QAtestLogback 2022-06-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/QAtestLogback 2022-06-24.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/ShoppingForAUsedCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/ShoppingForAUsedCarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/cargurus/WhatsMyCarWorthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/cargurus/WhatsMyCarWorthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carguru-runner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cargurus-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterSearchResultsUsedCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="apps.cargurus.FilterSearchResultsUsedCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="apps.cargurus.FilterSearchResultsUsedCars" />
       <module name="April22-SeleniumProject" />
       <extension name="coverage">

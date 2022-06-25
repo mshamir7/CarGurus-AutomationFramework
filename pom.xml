@@ -134,5 +134,9 @@
 <!-- Run from CMD before Jenkins Build:-->
 <!--  mvn install -DskipTests-->
 <!--  mvn -o test-->
+<!--  dependency:purge-local-repository-->
+<!--  dependency:resolve-->
+<!--  dependency:resolve-plugins-->
+<!--  mvn clean-->
 
 </project>
